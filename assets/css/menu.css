@@ -1,0 +1,75 @@
+.navegacion-menu {
+    padding-bottom: 1px;
+    width: 100%;
+}
+
+.espacio {
+    padding: 10px;
+}
+.espacio2{
+    padding: 110px;
+}
+
+.navegacion-menu .nav.nav-tabs.nav-tabs-menu {
+    padding: 10px 0px 0px;
+    margin: 0px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegacion-menu .nav.nav-tabs.nav-tabs-menu > .nav-item.nav-item-menu > .nav-link.nav-link-menu,
+.navegacion-menu .nav.nav-tabs.nav-tabs-menu > .nav-item.nav-item-menu > .nav-link-dropdown-toggle-menu {
+    color: black;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    border: none;
+    line-height: 1.5;
+    text-decoration: none;
+    font-size: 18px;
+    user-select: none;
+}
+
+.navegacion-menu .nav.nav-tabs.nav-tabs-menu .nav-link.nav-link-menu,
+.navegacion-menu .nav.nav-tabs.nav-tabs-menu .nav-item.nav-item-menu .nav-link-dropdown-toggle-menu {
+    color: black;
+    text-decoration: none;
+}
+
+.navegacion-menu .nav.nav-tabs.nav-tabs-menu .nav-link.nav-link-menu.active,
+.navegacion-menu .nav.nav-tabs.nav-tabs-menu .nav-link.dropdown-toggle.nav-link-dropdown-toggle-menu.active,
+.navegacion-menu .nav.nav-tabs.nav-tabs-menu .nav-link.dropdown-toggle.nav-link-dropdown-toggle-menu.show {
+    background-color: rgb(176, 176, 176);
+}
+
+.dropdown-item-submenu.active {
+    color: white;
+    background-color: antiquewhite;
+    text-decoration: none;
+}
+
+.navegacion-menu .dropdown-item.dropdown-item-submenu.active {
+    background-color: red;
+}
+
+.navegacion-menu .nav.nav-tabs.nav-tabs-menu .nav-item-menu .dropdown-item.dropdown-item-submenu.active {
+    color: #000000;
+    background-color: rgba(143, 143, 143, 0.5);
+    text-decoration: none;
+}
+
+@media(hover:hover) {
+    .navegacion-menu .dropdown-item.dropdown-item-submenu:hover {
+        color: #000000;
+        background-color: rgba(167, 167, 167, 0.2);
+        text-decoration: none;
+    }
+
+    .navegacion-menu .nav-tabs-menu#menu > .nav-item.nav-item-menu > .nav-link.nav-link-menu:hover,
+    .navegacion-menu .nav-tabs-menu#menu > .nav-item-dropdown-menu > .nav-link-dropdown-toggle-menu:hover,
+    .navegacion-menu .nav-tabs-menu#menu > .nav-item.dropdown.nav-item-menu > .nav-link.dropdown-toggle.nav-link-dropdown-toggle-menu:hover {
+        background-color: rgb(167, 167, 167);
+        user-select: none;
+    }
+}

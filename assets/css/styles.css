@@ -1,0 +1,696 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: rgb(215, 215, 215);
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(215, 215, 215);
+}
+
+.nav-back-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+.nav-item-logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+}
+.nav-item-back{
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+}
+p{
+    font-size: 18px;
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+    color: purple;
+    user-select: none;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+h3{
+    font-weight: normal;
+}
+h4{
+    font-weight: normal;
+}
+b{
+    user-select: none;
+}
+h5{
+    user-select: none;
+    font-weight: bold; 
+    text-align: center;
+    font-size: 15px;
+}
+h2 #exampleModalLabel{
+    text-align: center;
+}
+label{
+    font-size: 18px;
+}
+ion-icon{
+    font-size: 40px;
+}
+#letrav{
+    border: none;
+    margin-top: 20px;
+}
+#letrav .fa-arrow-left{
+    font-size: 2rem;
+}
+.facebook-inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imgcar1{
+    width: 100%;
+    height: 194px;
+}
+#imgcar2{
+    width: 100%;
+    height: 194px;
+}
+#auditor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto; 
+}
+#img-center{
+    position:relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    transition: 0.5s;   
+}
+#img-center-transparencia{
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#txtsomos1{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    right: 5%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+}
+#txtsomos{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#txtsomos ol li{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+    list-style: inside;
+}
+/*Opinión Técnica*/
+#ley1{
+    text-align: center
+}
+#btn-largoo{
+    background-color:rgb(16, 16, 16);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+/*Comité de Bienes*/
+#btn-info{
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+/*Avisos*/
+#btn-privacidad1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(154, 154, 154);
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 20px;   
+}
+#btn-privacidad2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #147568;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 20px;
+}
+.actAsDiv{
+    display:block;
+}
+#btn-arriba{
+    position: fixed;
+    display: block;
+    text-align: left;
+    bottom: 20px;
+    right: -100px;
+    width: 52px;
+    height: 45px;
+    background-color: #147568;
+    color: #fff;
+    transition: all 1s;
+    border: 3px solid black;
+}
+#btn-arriba .fa-arrow-up{
+    font-size: 1.7rem;
+    vertical-align: middle;
+    padding: 0px 1.5px;
+}
+#btn-arriba:active{
+    background-color: rgb(87, 87, 87);
+    transition: all 0.5s ease;
+}
+
+#txtinfau li a{
+    font-size: 25px;
+    color: #147568;
+    text-decoration: none;
+    list-style: square;
+}
+
+#fondosomoslogo{
+    width: 100%;
+    height: auto;
+    opacity: 0.25;
+}
+#titulone{
+    text-align: center; 
+    background: linear-gradient(90deg,#147568, #aaaaaa); 
+    color: #fff;
+    font-size: 25px; 
+    font-weight: bold;
+}
+#titulotwo{
+    text-align: center; 
+    background: linear-gradient(270deg,#147568, #aaaaaa); 
+    color: #fff;
+    font-size: 25px; 
+    font-weight: bold;
+}
+#txt{
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 18px;
+}
+#title{
+    font-family: 'Fjalla One', sans-serif;
+}
+#txtli{
+    font-size: 27px;
+    color: #147568;
+    text-decoration: none;
+    list-style: none;
+}
+#txtli2{
+    font-size: 27px;
+    color: #147568;
+    text-decoration: none;
+}
+#txtligroup{
+    font-size: 27px;
+    color: #147568;
+    text-decoration: none;
+    list-style: circle;
+}
+
+#txt2{
+    font-weight: bold;
+    font-size: 18px;
+}
+#imgcard{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 470px;
+    height: 300px;
+} 
+#imgcar22{
+    width: 300px;
+    height: auto;
+}
+.div-imagen {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    overflow: hidden;
+} 
+.div-imagen > #div1{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+    margin:0;
+}
+#txtsplide{
+    color: red;
+}
+#btn-21{
+    display: inline-block;
+    padding: 20px 50px;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    transition: all 0.6s ease;
+    z-index: 2;
+    border: 3px solid #ffffff;
+    width: 100%;
+    height: auto;
+    background-color: #147568;
+    color: white;
+}
+#btn-22{
+    display: inline-block;
+    position: relative;
+    transition: all 0.6s ease;
+    z-index: 2;
+    border: 3px solid #ffffff;
+}
+#btn-22 img{
+    width: 100%;
+    height: auto;
+}
+#btn-212{
+    display: inline-block;
+    padding: 20px 50px;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    transition: all 0.6s ease;
+    z-index: 2;
+    border: 3px solid #ffffff;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(180deg, #aaaaaa, #147568);
+    color: white;
+}
+.contact p{
+    font-size: 19px;
+    text-align: justify;
+    margin: 10px 20px;
+}
+.contact a{
+    text-decoration: none;
+}
+#cont1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #147568;
+    text-decoration: none;
+}
+#cont1 p{
+    color: #fff;
+    user-select: none;
+    padding: 5px 5px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#cont1TNT{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #147568;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-align: justify;
+    padding: 5px 5px;
+}
+#cont11{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #147568;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-align: justify;
+    padding: 5px 5px;
+}
+
+#contnt4{
+    width: 100%;
+    height: 100%;
+    padding: 5px 5px;
+    background-color: #ccc;
+    border-radius: 20px;
+    overflow: hidden; 
+}
+#contnt4  .textnt10{
+    font-size: 27px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 0;
+}
+#contnt4 .textnt20{
+    font-size: 21px;
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+}
+#contnt4  .textnt30{
+    font-size: 21px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 0;
+}
+#contnt3{
+    width: 100%;
+    height: auto;
+    padding: 5px 5px;
+    background-color: #147568;
+    border-radius: 20px;
+    overflow: hidden;  
+}
+.imgperson-dir{
+    width: 172px;
+    height: auto;
+    margin: 13px 15px;
+    border-radius: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.imgperson{
+    width: 153px;
+    height: auto;
+    margin: 13px 15px; 
+    border-radius: 20%; 
+    display: block;      
+    margin-left: auto;                          
+    margin-right: auto;
+}
+
+#contnt3  .textnt11{
+    font-size: 27px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#contnt3 .textnt22{
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+}
+#contnt3 .textnt221{
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+}
+#contnt3  .textnt33{
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#contnt3{
+    width: 100%;
+    height: auto;
+    padding: 5px 5px;
+    background-color: #1c9787;
+    border-radius: 20px;
+    overflow: hidden;  
+}
+#contnt3  .textnt111{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#contnt3 .correo-personal-g{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    text-decoration: none;
+}
+#contnt3 .correo-personal{
+    font-size: 18px;
+    color: #fff;
+    text-align: center; 
+    text-decoration: none;  
+}
+#contnt3  .textnt331{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#contnt1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(154, 154, 154);
+    overflow: hidden;
+    text-decoration: none;
+    color: #000;
+}
+#contnt2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #147568;
+    color: #fff;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+#contnt1 p, #contnt2 p{
+    user-select: none;
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 20px;
+    margin-bottom: 0;
+    text-decoration: none;
+    overflow: hidden;
+}
+.fb-page{
+    align-items: center;
+}
+
+/* Personaliza el color del botón de denuncia anonima a morado */
+#denunciaAn{
+    background-color: #6c2f6d;
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+}
+
+#modaviso{
+    width: 100%;
+}
+
+#mail, #facebook, #youtube, #twitter{
+    width: auto;
+}
+
+
+.xmark{
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+.fa-xmark{
+    color: red; 
+    height: 70px; 
+}
+.fa-question{
+    color: red; 
+    height: 70px; 
+}
+.btn-error{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+#iconcon1{
+    font-size: 1.5rem;
+    color:#333;
+    text-align: center;
+}
+#iconcon{
+    font-size: 2rem;
+    color:#333;
+    text-align: right;
+}
+
+
+#footer-text p {
+    display: inline-block; 
+    text-align: center;
+}
+
+.title-footer {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.txt-footer {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+}
+
+#contacto {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#contacto2, #contacto-face, #direccion, #telefono{
+    color: #000;
+    font-size: 18px;
+}
+
+#btns-info-footer {
+    text-align: center;
+}
+.footer{
+    background-color: grey;
+    padding: 50px 10px 50px;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+}
+.footer .botones-footer{
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    margin: 10%;
+}
+.footer .botones-footer .btn{
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 15px;
+}
+.footer .main-txt-footer{
+    padding: 0px 20px 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footer .main-txt-footer p{
+    font-size: 17px;
+    padding-top: 10px;
+    margin-top: 0px;
+}
+/*Primer logo ubicado en el index*/
+#img-inicio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    margin-top: 10px;
+}
+/*Logo ubicado en cada archivo en la parte superior de la pantalla*/
+#img-logo3{
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 24%;
+}
+/*Logo ubicado en cada footer de cada archivo*/
+#img-logo4{
+    display: block;
+    margin-left: 15%;
+    width: 70%;
+    height: auto;
+}
+
+.botones-footer #mail,
+.botones-footer #facebook,
+.botones-footer #youtube,
+.botones-footer #twitter {
+    color: black;
+}
+
+.contacto-direccion p, .contacto-facebook p{
+    display: flex;
+    align-items: center;
+}
+    .icon-contacto-direccion, .icon-contacto-phone, .icon-contacto-mail, .icon-contacto-facebook{
+    background-color: transparent;
+    border: none;
+}
+.contacto-direccion .text-direccion{
+    color: inherit;
+    text-decoration: none;
+}

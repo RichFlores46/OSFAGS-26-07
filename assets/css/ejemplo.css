@@ -1,0 +1,159 @@
+/*
+#ejemplocontacto{
+    background-image: url(../img/menu/contacto2.png);
+}*/
+#ejemplosomos{
+    background-image: url(../img/BANERS/1.png);
+    background-position: center;
+    background-size: 100% 100%;
+    display: inline-block;
+    transition: all 0.6s ease;
+    z-index: 2;
+    border: 3px solid #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 95px;
+}
+
+#ejemplobienvenida{
+    background-image: url(../img/BANERS/2.png);
+    background-position: center;
+    background-size: 100% 100%;
+    display: inline-block;
+    transition: all 0.6s ease;
+    z-index: 2;
+    border: 3px solid #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 95px;
+}
+
+#ejemploinforme{
+    background-image: url(../img/BANERS/3.png);
+    background-position: center;
+    background-size: 100% 100%;
+    display: inline-block;
+    transition: all 0.6s ease;
+    z-index: 2;
+    border: 3px solid #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 95px;
+}
+
+#ejemplodenun{
+    background-image: url(../img/BANERS/11.png);
+    background-position: center;
+    background-size: 100% 100%;
+    display: inline-block;
+    transition: all 0.6s ease;
+    z-index: 2;
+    border: 3px solid #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 95px;
+}
+
+#ejemplosobre{
+    background-image: url(../img/BANERS/7.png);
+    background-position: center;
+    background-size: 100% 100%;
+    display: inline-block;
+    transition: all 0.6s ease;
+    z-index: 2;
+    border: 3px solid #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 95px;
+}
+
+#ejemplotransparencia{
+    background-image: url(../img/BANERS/4.png);
+    background-position: center;
+    background-size: 100% 100%;
+    display: inline-block;
+    transition: all 0.6s ease;
+    z-index: 2;
+    border: 3px solid #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 95px;
+}
+
+#ejemploresponsabilidad{
+    background-image: url(../img/BANERS/8.png);
+    background-position: center;
+    background-size: 100% 100%;
+    display: inline-block;
+    transition: all 0.6s ease;
+    z-index: 2;
+    border: 3px solid #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 95px;
+}
+
+#ejemploprograma{
+    background-image: url(../img/BANERS/5.png);
+    background-position: center;
+    background-size: 100% 100%;
+    display: inline-block;
+    transition: all 0.6s ease;
+    z-index: 2;
+    border: 3px solid #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 95px;
+}
+
+#ejemploservicio{
+    background-image: url(../img/BANERS/9.png);
+    background-position: center;
+    background-size: 100% 100%;
+    display: inline-block;
+    transition: all 0.6s ease;
+    z-index: 2;
+    border: 3px solid #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 95px;
+}
+
+#ejemplocontacto{
+    background-image: url(../img/BANERS/contacto75.png);
+    background-position: center;
+    background-size: 100% 100%;
+    display: inline-block;
+    transition: all 0.6s ease;
+    z-index: 2;
+    border: 3px solid #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 95px;
+}
+
+#ejemplosistema{
+    background-image: url(../img/BANERS/10.png);
+    background-position: center;
+    background-size: 100% 100%;
+    display: inline-block;
+    transition: all 0.6s ease;
+    z-index: 2;
+    border: 3px solid #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 95px;
+}
+
+#ejemplointeres{
+    background-image: url(../img/BANERS/6.png);
+    background-position: center;
+    background-size: 100% 100%;
+    display: inline-block;
+    transition: all 0.6s ease;
+    z-index: 2;
+    border: 3px solid #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 95px;
+}
