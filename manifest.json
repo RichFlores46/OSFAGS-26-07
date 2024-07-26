@@ -1,0 +1,13 @@
+{
+    "short_name": "OSFAGS",
+    "name": "Creando app osfags",
+    "icons": [{
+        "src": "assets/img/logo_osfags.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }],
+    "start_url": "index.html",
+    "display": "standalone",
+    "scope": "/",
+    "description": "Página oficial del OSFAGS"
+}
