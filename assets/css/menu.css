@@ -17,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
 }
 
 .navegacion-menu .nav.nav-tabs.nav-tabs-menu > .nav-item.nav-item-menu > .nav-link.nav-link-menu,
