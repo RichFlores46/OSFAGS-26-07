@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEVAC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/tabs2.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/medias.css">
+    <link rel="stylesheet" href="../assets/css/menu.css">
+    <link rel="icon" href="../assets/img/home-favicon.ico">
+
+    <!--User Way-->
+    <!--<script src="https://cdn.userway.org/widget.js" data-account="FfyPNo0Rq8"></script>-->
+    <!--Iconos FA-->
+    <script src="https://kit.fontawesome.com/1ab87fe933.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+  <div class="row">
+    <div class="col-md-12">
+      <div class="navegacion-menu ">
+        <ul class="nav-back-logo">
+          <li class="nav-item-back">
+              
+          </li><br><br><br>
+          <li class="nav-item-logo" style="text-align: center">
+              <a href="../index.html">
+                  <img src="../assets/img/logo2.png" alt="Órgano Superior de Fiscalización del Estado de Aguascalientes" title="Inicio" width="190px">
+              </a>
+          </li>
+      </ul>
+
+      <ul class="nav nav-tabs nav-tabs-menu" id="menu" role="tablist" style="text-align: center;">
+
+        <li class="nav-item nav-item-menu">
+          <a class="nav-link nav-link-menu" href="../index.html" role="tab" >Inicio</a>
+        </li>
+
+        <li class="nav-item dropdown nav-item-menu">
+          <a class="nav-link dropdown-toggle nav-link-dropdown-toggle-menu active" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Transparencia
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item dropdown-item-submenu" href="transparencia.html">Obligaciones de Transparencia</a></li>
+            <li><a class="dropdown-item dropdown-item-submenu" href="avisos.html">Avisos de Privacidad</a></li>
+            <li><a class="dropdown-item dropdown-item-submenu active" href="sevac.html">SEVAC</a></li>
+            <li><a class="dropdown-item dropdown-item-submenu" href="disciplina-financiera.html">Disciplina Financiera</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown nav-item-menu">
+          <a class="nav-link dropdown-toggle nav-link-dropdown-toggle-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Programas
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item dropdown-item-submenu" target="_blank" href="http://osfags.gob.mx/Public/pySaoFDF3Agajvt.pdf">Programa de Actividades 2023</a></li>
+            <li><a class="dropdown-item dropdown-item-submenu" target="_blank" href="http://osfags.gob.mx/Public/XulrIRUvXTOPone.pdf">Plan de Auditorías Cuenta Pública 2022</a></li>
+            <li><a class="dropdown-item dropdown-item-submenu" target="_blank" href="http://osfags.gob.mx/Public/d5KeTCBheUUv4kr.pdf">Plan Anual de Adquisiciones, Arrendamientos y Servicios</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item nav-item-menu">
+          <a class="nav-link nav-link-menu" href="../denuncia/index.html" role="tab" >Denuncia</a>
+        </li>
+
+        <li class="nav-item nav-item-menu">
+          <a class="nav-link nav-link-menu" href="../contacto/index.html" role="tab" >Contacto</a>
+        </li>
+
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+    <div class="container">
+      <hr>
+        <div class="row">
+            <h2 style="text-align: center;">Sistema de Evaluación de la Armonización Contable (SEVAC)</h2>
+            <section style="float: center;">
+            <h5 style="font-weight: bold; text-align: center;">Realiza la consulta del sujeto obligado dando click en la siguiente imagen. <br></h5>
+            <a href="https://consultapublicamx.plataformadetransparencia.org.mx/vut-web/faces/view/consultaPublica.xhtml#inicio">
+              <img src="../assets/img/transparencia.png" id="img-center-transparencia" alt="Plataforma Nacional de Transparencia" title="Plataforma Nacional de Transparencia">
+            </a>
+            </section>
+        </div>
+        
+        
+            <div class="row">
+              <div class="col-md-2"></div>
+              <div class="col-md-8">
+                <div class="container">
+                  <div class="row d-flex justify-content-center">
+                      <div class="col-md-12">
+                          <div class="card shadow text-justify">
+                              <ul class="nav nav-tabs" id="myTab" role="tablist" style="text-align: center;">
+                                
+                                <!--Formato en lista para los tabs que muestran los años, el mas reciente cuenta con un active para 
+                                  agregar uno nuevo copiar:
+                                   <li class="nav-item dropdown">
+                                    <a href="" class="nav-link dropdown-toggle active" data-toggle="dropdown">Año</a>
+                                      <div class="dropdown-menu m-0 p-0 border-0">
+                                        <a href="#id" class="dropdown-item" data-toggle="tab">Primer Trimestre</a>
+                                  </li>
+                                  **Quitar el active al año anterior y asignar al href el id correcto del tabpane
+                                -->
+
+                                <li class="nav-item dropdown">
+                                  <a href="" class="nav-link dropdown-toggle active" data-toggle="dropdown">2024</a>
+                                    <div class="dropdown-menu m-0 p-0 border-0">
+                                      <a href="#IT24" class="dropdown-item active" data-toggle="tab">Primer Trimestre</a>
+                                    <!--  <a href="#IIT24" class="dropdown-item" data-toggle="tab">Segundo Trimestre</a>
+                                          <a href="#IIIT24" class="dropdown-item" data-toggle="tab">Tercer Trimestre</a>
+                                          <a href="#IVT24" class="dropdown-item" data-toggle="tab">Cuarto Trimestre</a>
+                                    --> 
+                                    </div>
+                                </li>
+
+
+                                <li class="nav-item dropdown">
+                                  <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">2023</a>
+                                    <div class="dropdown-menu m-0 p-0 border-0">
+                                      <a href="#IT23" class="dropdown-item" data-toggle="tab">Primer Trimestre</a>
+                                      <a href="#IIT23" class="dropdown-item" data-toggle="tab">Segundo Trimestre</a>
+                                      <a href="#IIIT23" class="dropdown-item" data-toggle="tab">Tercer Trimestre</a>
+                                      <a href="#IVT23" class="dropdown-item" data-toggle="tab">Cuarto Trimestre</a>
+                                    </div>
+                                </li>
+
+                                <!--<li class="nav-item dropdown active">
+                                  <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">2023</a>
+                                  <div class="dropdown-menu m-0 p-0 border-0">
+                                      <a href="#IT23" class="dropdown-item" data-toggle="tab">Primer Trimestre</a>
+                                  </div>
+                                </li>-->
+
+                                <li class="nav-item dropdown ">
+                                  <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">2022</a>
+                                  <div class="dropdown-menu m-0 p-0 border-0">
+                                      <a href="#IT22" class="dropdown-item" data-toggle="tab">Primer Trimestre</a>
+                                      <a href="#IIT22" class="dropdown-item" data-toggle="tab">Segundo Trimestre</a>
+                                      <a href="#IIIT22" class="dropdown-item" data-toggle="tab">Tercer Trimestre</a>
+                                      <a href="#IVT22" class="dropdown-item" data-toggle="tab">Cuarto Trimestre</a>
+                                  </div>
+                                </li>
+                              </ul>
+
+                                <div class="tab-content" id="myTabContent">
+
+                                  <div class="tab-pane fade show active" id="IT24" role="tabpanel">
+                                    <h3 style="color: black;">Primer Trimestre 2024</h3>
+                                    <div class="accordion accordion-flush" id="accordionFlushExample9">
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne9" aria-expanded="false" aria-controls="flush-collapseOne9">
+                                            <h4>D.2</h4>
+                                          </button>
+                                        </h2>
+                                        <div id="flush-collapseOne9" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample9">
+                                          <div class="accordion-body">
+                                              <ul>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/SNEJcMmR6pQWWJA.pdf">D.2.1.Estado de Actividades</a></li><br>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/H1K2dD5fnieaL2e.pdf">D.2.2.Estado de Situación Financiaera</a></li><br>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/juJEtjXJuu3JBOF.pdf">D.2.3.Estado de Variación en la Hacienda Pública</a></li><br>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/5sYNS4pZg7en1Z4.pdf">D.2.4.Estado de Cambios en la Situación</a></li><br>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/IzGS9K1AoXUu2bH.pdf">D.2.5.Estados de Flujos de Efectivo</a></li><br>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/kptK6JmZ6TCPnv3.pdf">D.2.6.Informe de Pasivos Contingentes</a></li><br>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/huze99z8tPOR0A4.pdf">D.2.7.Notas de los Estados Financieros</a></li><br>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/pGJLe8qDVehyj3t.pdf">D.2.8.Reporte Analítico del Activo</a></li><br>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/mvIb59aePthaTLw.pdf">D.2.9.Estado Analítico de la Deuda y Otros Pasivos</a></li>
+                                                </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo9" aria-expanded="false" aria-controls="flush-collapseTwo9">
+                                            <h4>D.3</h4>
+                                          </button>
+                                        </h2>
+                                        <div id="flush-collapseTwo9" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample9">
+                                          <div class="accordion-body">
+                                              <ul>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/qrZAkukNmkncjTP.pdf">D.3.1.Estado Analítico de Ingresos</a></li><br>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/DVUItsG4pE1X04b.PDF">D.3.2.Estado Analítico del Ejercicio del Presupuesto de Egresos CLasificación</a></li><br>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/vZjnJz1Z9KnXBck.pdf">D.3.3.Estado Analítico Presupuesto Egresos Clasificación Económica</a></li><br>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/rYSaHRfMZmV6Fg6.pdf">D.3.4.Clasificación por el Objeto de Gasto</a></li><br>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/2h7rApUUKyWacMi.pdf">D.3.5.Clasificación Funcional</a></li><br>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/3uApCmab1UX7XQh.pdf">D.3.6.Endeudamiento Neto</a></li><br>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/u4OCyxCx1WZzG3D.pdf">D.3.7.Intereses de la Deuda</a></li>
+                                                </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree9" aria-expanded="false" aria-controls="flush-collapseThree9">
+                                            <h4>D.4</h4>
+                                          </button>
+                                        </h2>
+                                        <div id="flush-collapseThree9" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample9">
+                                          <div class="accordion-body">
+                                              <ul>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/oD8xeU5iNPHz9GB.pdf">D.4.1.Gasto por Categoría Programática</a></li><br>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/Hjdt55eDJYdjllh.pdf">D.4.2.Indicadores de Resultados</a></li><br>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/DHMqIPrpQvylpoZ.pdf">D.4.3.Programas y Proyectos de Inversión</a></li>
+                                               </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour9" aria-expanded="false" aria-controls="flush-collapseFour9">
+                                              <h4>D.6</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseFour9" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample9">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                  <li><a target="_blank" href="https://osfags.gob.mx/Public/DQovOrbtYc79pO1.pdf">D.6.7.Manual de Contabilidad Gubernamental</a></li>
+                                                 </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+
+
+                                  </div>
+
+
+                                  <div class="tab-pane fade show" id="IVT23" role="tabpanel">
+                                    <h3 style="color: black;">Cuarto Trimestre 2023</h3>
+
+                                    <!--Aqui se creo un acodio que esta dividido en 4 o 5 secciones dependiendo el trimesgr y muestra los datos y
+                                    documento que se quiere mostrar.-->
+                                    
+                                    <div class="accordion accordion-flush" id="accordionFlushExample8">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne8" aria-expanded="false" aria-controls="flush-collapseOne8">
+                                              <h4>D.2</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseOne8" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample8">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/zMiWm5ZeRkWZnKi.pdf">D.2.1.Estado de Actividades</a></li><br>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/EBum6FrBTZRWZmC.pdf">D.2.2.Estado de Situación Financiaera</a></li><br>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/Ue3bqraNLW9Ksp6.pdf">D.2.3.Estado de Variación en la Hacienda Pública</a></li><br>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/lREUXxVnqPEAoLC.pdf">D.2.4.Estado de Cambios en la Situación</a></li><br>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/w5HYwxbaVzaukmt.pdf">D.2.5.Estados de Flujos de Efectivo</a></li><br>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/6GjTnVABVlAila0.pdf">D.2.6.Informe de Pasivos Contingentes</a></li><br>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/bnwLDvsobtG5HJC.pdf">D.2.7.Notas de los Estados Financieros</a></li><br>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/zd1cvAc3ifJmdfd.pdf">D.2.8.Reporte Analítico del Activo</a></li><br>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/w1Q8lDlAlwpo7W7.pdf">D.2.9.Estado Analítico de la Deuda y Otros Pasivos</a></li>
+                                                  </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo8" aria-expanded="false" aria-controls="flush-collapseTwo8">
+                                              <h4>D.3</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseTwo8" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample8">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/cYdV1NbAP0DlPVs.pdf">D.3.1.Estado Analítico de Ingresos</a></li><br>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/wlmtWAQaXxRySwl.pdf">D.3.2.Estado Analítico del Ejercicio del Presupuesto de Egresos CLasificación</a></li><br>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/ZAmGtjzWhQCM8ai.pdf">D.3.3.Estado Analítico Presupuesto Egresos Clasificación Económica</a></li><br>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/03kbKPB0J7WkkSe.pdf">D.3.4.Clasificación por el Objeto de Gasto</a></li><br>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/6rY7PaS1MqAxprc.pdf">D.3.5.Clasificación Funcional</a></li><br>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/3wVBDl03L4IrjZH.pdf">D.3.6.Endeudamiento Neto</a></li><br>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/x75b7EDbNMJfO43.pdf">D.3.7.Intereses de la Deuda</a></li>
+                                                  </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree8" aria-expanded="false" aria-controls="flush-collapseThree8">
+                                              <h4>D.4</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseThree8" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample8">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/T9EHo0cbwRPwatb.pdf">D.4.1.Gasto por Categoría Programática</a></li><br>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/G2tlNcFjKJtHdjM.pdf">D.4.2.Indicadores de Resultados</a></li><br>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/fpw0QbCs502Fa8c.pdf">D.4.3.Programas y Proyectos de Inversión</a></li>
+                                                 </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour8" aria-expanded="false" aria-controls="flush-collapseFour8">
+                                                <h4>D.5</h4>
+                                              </button>
+                                            </h2>
+                                            <div id="flush-collapseFour8" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample8">
+                                              <div class="accordion-body">
+                                                  <ul>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/BDcWOB6w3ncF6fH.pdf">D.5.4.Inventario Bienes Muebles</a></li>
+                                                   </ul>
+                                              </div>
+                                            </div>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="tab-pane fade show" id="IIIT23" role="tabpanel">
+                                    <h3 style="color: black;">Tercer Trimestre 2023</h3>
+
+                                    <!--Aqui se creo un acodio que esta dividido en 4 o 5 secciones dependiendo el trimesgr y muestra los datos y
+                                    documento que se quiere mostrar.-->
+                                    
+                                    <div class="accordion accordion-flush" id="accordionFlushExample7">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne7" aria-expanded="false" aria-controls="flush-collapseOne7">
+                                              <h4>D.2</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseOne7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample7">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/zMiWm5ZeRkWZnKi.pdf">D.2.1.Estado de Actividades</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/EBum6FrBTZRWZmC.pdf">D.2.2.Estado de Situación Financiaera</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/Ue3bqraNLW9Ksp6.pdf">D.2.3.Estado de Variación en la Hacienda Pública</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/lREUXxVnqPEAoLC.pdf">D.2.4.Estado de Cambios en la Situación</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/w5HYwxbaVzaukmt.pdf">D.2.5.Estados de Flujos de Efectivo</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/6GjTnVABVlAila0.pdf">D.2.6.Informe de Pasivos Contingentes</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/bnwLDvsobtG5HJC.pdf">D.2.7.Notas de los Estados Financieros</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/zd1cvAc3ifJmdfd.pdf">D.2.8.Reporte Analítico del Activo</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/w1Q8lDlAlwpo7W7.pdf">D.2.9.Estado Analítico de la Deuda y Otros Pasivos</a></li>
+                                                  </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo7" aria-expanded="false" aria-controls="flush-collapseTwo7">
+                                              <h4>D.3</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseTwo7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample7">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/cYdV1NbAP0DlPVs.pdf">D.3.1.Estado Analítico de Ingresos</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/wlmtWAQaXxRySwl.pdf">D.3.2.Estado Analítico del Ejercicio del Presupuesto de Egresos CLasificación</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/ZAmGtjzWhQCM8ai.pdf">D.3.3.Estado Analítico Presupuesto Egresos Clasificación Económica</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/03kbKPB0J7WkkSe.pdf">D.3.4.Clasificación por el Objeto de Gasto</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/6rY7PaS1MqAxprc.pdf">D.3.5.Clasificación Funcional</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/3wVBDl03L4IrjZH.pdf">D.3.6.Endeudamiento Neto</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/x75b7EDbNMJfO43.pdf">D.3.7.Intereses de la Deuda</a></li>
+                                                  </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree7" aria-expanded="false" aria-controls="flush-collapseThree7">
+                                              <h4>D.4</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseThree7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample7">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/T9EHo0cbwRPwatb.pdf">D.4.1.Gasto por Categoría Programática</a></li><br>
+                                                    <li><a target="_blank" href="https://osfags.gob.mx/Public/G2tlNcFjKJtHdjM.pdf">D.4.2.Indicadores de Resultados</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/fpw0QbCs502Fa8c.pdf">D.4.3.Programas y Proyectos de Inversión</a></li>
+                                                 </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour7" aria-expanded="false" aria-controls="flush-collapseFour7">
+                                                <h4>D.5</h4>
+                                              </button>
+                                            </h2>
+                                            <div id="flush-collapseFour7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample7">
+                                              <div class="accordion-body">
+                                                  <ul>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/BDcWOB6w3ncF6fH.pdf">D.5.4.Inventario Bienes Muebles</a></li>
+                                                   </ul>
+                                              </div>
+                                            </div>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="tab-pane fade show" id="IIT23" role="tabpanel">
+                                    <h3 style="color: black;">Segundo Trimestre 2023</h3>
+
+                                    <!--Aqui se creo un acodio que esta dividido en 4 o 5 secciones dependiendo el trimesgr y muestra los datos y
+                                    documento que se quiere mostrar.-->
+                                    
+                                    <div class="accordion accordion-flush" id="accordionFlushExample6">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne6" aria-expanded="false" aria-controls="flush-collapseOne6">
+                                              <h4>D.2</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseOne6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample6">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/HGD2ArwyZbAvfna.pdf">D.2.1.Estado de Actividades</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/GwDu9PYkZBLJkgr.pdf">D.2.2.Estado de Situación Financiaera</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/NQ8cKNk22cMapz6.pdf">D.2.3.Estado de Variación en la Hacienda Pública</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/GRHyTKNA7DDFVVI.pdf">D.2.4.Estado de Cambios en la Situación</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/T1vebs1FGcVR6C4.pdf">D.2.5.Estados de Flujos de Efectivo</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/mBxgFh8Npp3jDFQ.pdf">D.2.6.Informe de Pasivos Contingentes</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/5TDq1YZ3CsoVBHv.pdf">D.2.7.Notas de los Estados Financieros</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/ywYDbNIYEPZ5qh5.pdf">D.2.8.Reporte Analítico del Activo</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/lYXnkMxhU08PUkw.pdf">D.2.9.Estado Analítico de la Deuda y Otros Pasivos</a></li>
+                                                  </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo6" aria-expanded="false" aria-controls="flush-collapseTwo6">
+                                              <h4>D.3</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseTwo6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample6">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/9ynr0yjUm6g7ZmZ.pdf">D.3.1.Estado Analítico de Ingresos</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/M6S1ydjORHVDbbD.pdf">D.3.2.Estado Analítico del Ejercicio del Presupuesto de Egresos CLasificación</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/C7SIN5ZajXRFiyZ.pdf">D.3.3.Estado Analítico Presupuesto Egresos Clasificación Económica</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/9UAsTyCi79dbp5V.pdf">D.3.4.Clasificación por el Objeto de Gasto</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/hk9t53I3b2xaRev.pdf">D.3.5.Clasificación Funcional</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/wX9AdykKhaiEyge.pdf">D.3.6.Endeudamiento Neto</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/Qj71ZKGOrk8qtf6.pdf">D.3.7.Intereses de la Deuda</a></li>
+                                                  </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree6" aria-expanded="false" aria-controls="flush-collapseThree6">
+                                              <h4>D.4</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseThree6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample6">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/QvNyGeHCkFMgGWO.pdf">D.4.1.Gasto por Categoría Programática</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/JDuJntPPUImJcKA.pdf">D.4.2.Indicadores de Resultados</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/9WrGH8kwTVT56fa.pdf">D.4.3.Programas y Proyectos de Inversión</a></li>
+                                                </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour6" aria-expanded="false" aria-controls="flush-collapseFour6">
+                                                <h4>D.5</h4>
+                                              </button>
+                                            </h2>
+                                            <div id="flush-collapseFour6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample6">
+                                              <div class="accordion-body">
+                                                  <ul>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/qbozgaruhSSMNLQ.pdf">D.5.4.Inventario Bienes Muebles</a></li>
+                                                   </ul>
+                                              </div>
+                                            </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  
+                                    <div class="tab-pane fade" id="IT23" role="tabpanel">
+                                        <h3 style="color: black;">Primer Trimestre 2023</h3>
+                                        
+                                        <div class="accordion accordion-flush" id="accordionFlushExample5">
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne5" aria-expanded="false" aria-controls="flush-collapseOne5">
+                                                  <h4>D.2</h4>
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapseOne5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample5">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/t9nWaCBg4AFkzd5.pdf">D.2.1.Estado de Actividades</a></li><br>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/3umpjrLtWlAiXUL.pdf">D.2.2.Estado de Situación Financiaera</a></li><br>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/zw5wHC7axvf9lYe.pdf">D.2.3.Estado de Variación en la Hacienda Pública</a></li><br>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/Ou15kcWyVCQKb7E.pdf">D.2.4.Estado de Cambios en la Situación</a></li><br>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/gcZKwQRIO0fCzu9.pdf">D.2.5.Estados de Flujos de Efectivo</a></li><br>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/pFZTEsMHhp41cOP.pdf">D.2.6.Informe de Pasivos Contingentes</a></li><br>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/yft5oEaXCtnnQGg.pdf">D.2.7.Notas de los Estados Financieros</a></li><br>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/rDZfLQBdROeNvDR.pdf">D.2.8.Reporte Analítico del Activo</a></li><br>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/G7ITub8iYSZ83N8.pdf">D.2.9.Estado Analítico de la Deuda y Otros Pasivos</a></li>
+                                                      </ul>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo5" aria-expanded="false" aria-controls="flush-collapseTwo5">
+                                                  <h4>D.3</h4>
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapseTwo5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample5">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/u57j71Jer3JPlb0.pdf">D.3.1.Estado Analítico de Ingresos</a></li><br>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/Gade94nYitW17nb.pdf">D.3.2.Estado Analítico del Ejercicio del Presupuesto de Egresos CLasificación</a></li><br>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/W6I6hQQr9oPM1fq.pdf">D.3.3.Estado Analítico Presupuesto Egresos Clasificación Económica</a></li><br>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/fd1opBQniG9wOhM.pdf">D.3.4.Clasificación por el Objeto de Gasto</a></li><br>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/AzkwvAwqD3y7XnZ.pdf">D.3.5.Clasificación Funcional</a></li><br>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/9BdZX0Z9GjUdV9i.pdf">D.3.6.Endeudamiento Neto</a></li><br>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/1IJyy2lj9RZIqpV.pdf">D.3.7.Intereses de la Deuda</a></li>
+                                                      </ul>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree5" aria-expanded="false" aria-controls="flush-collapseThree5">
+                                                  <h4>D.4</h4>
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapseThree5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample5">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/GNSwylseTSKFlMK.pdf">D.4.1.Gasto por Categoría Programática</a></li><br>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/JDuJntPPUImJcKA.pdf">D.4.2.Indicadores de Resultados</a></li><br>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/D7DcFsjTEu82Gin.pdf">D.4.3.Programas y Proyectos de Inversión</a></li>
+                                                     </ul>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour5" aria-expanded="false" aria-controls="flush-collapseFour5">
+                                                    <h4>D.5</h4>
+                                                  </button>
+                                                </h2>
+                                                <div id="flush-collapseFour5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample5">
+                                                  <div class="accordion-body">
+                                                      <ul>
+                                                        <li><a target="_blank" href="http://osfags.gob.mx/Public/a1tRhCnLHgVrRsB.pdf">D.5.4.Inventario Bienes Muebles</a></li>
+                                                       </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                    
+    
+                                  <div class="tab-pane fade show" id="IT22" role="tabpanel">
+                                    <h3 style="color: black;">Primer Trimestre 2022</h3>
+                                    
+                                    <div class="accordion accordion-flush" id="accordionFlushExample1">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne1" aria-expanded="false" aria-controls="flush-collapseOne1">
+                                              <h4>D.2</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseOne1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <!--<li><a href="">D.2.1.Estado de Actividades</a></li><br>
+                                                    <li><a target="_blank" href="">D.2.2.Estado de Situación Financiaera</a></li><br>
+                                                    <li><a target="_blank" href="">D.2.3.Estado de Variación en la Hacienda Pública</a></li><br>
+                                                    <li><a target="_blank" href="">D.2.4.Estado de Cambios en la Situación</a></li><br>
+                                                    <li><a target="_blank" href="">D.2.5.Estados de Flujos de Efectivo</a></li><br>
+                                                    <li><a target="_blank" href="">D.2.6.Informe de Pasivos Contingentes</a></li><br>
+                                                    <li><a target="_blank" href="">D.2.7.Notas de los Estados Financieros</a></li><br>-->
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/66De1wtmiJtuAOk.pdf">D.2.8.Reporte Analítico del Activo</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/P9IAb6F8FdC2s4d.pdf">D.2.9.Estado Analítico de la Deuda y Otros Pasivos</a></li>
+                                                  </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo1" aria-expanded="false" aria-controls="flush-collapseTwo1">
+                                              <h4>D.3</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseTwo1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/Fy2DiIPNdnlyJFd.pdf">D.3.1.Estado Analítico de Ingresos</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/nTkPRkIegstFd3l.pdf">D.3.2.Estado Analítico del Ejercicio del Presupuesto de Egresos CLasificación</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/YCIbt3HaE6WIo9g.pdf">D.3.3.Estado Analítico Presupuesto Egresos Clasificación Económica</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/OerLuLzuena0kL8.pdf">D.3.4.Clasificación por el Objeto de Gasto</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/9qGy2FPMeAzOrU5.pdf">D.3.5.Clasificación Funcional</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/viKleXFS5yqi3aL.pdf">D.3.6.Endeudamiento Neto</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/GEWFPRY6xgi0scA.pdf">D.3.7.Intereses de la Deuda</a></li>
+                                                  </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree1" aria-expanded="false" aria-controls="flush-collapseThree1">
+                                              <h4>D.4</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseThree1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="osfags.gob.mx/Public/QnT2cORtyjdGSdz.pdf">D.4.1.Gasto por Categoría Programática</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/s5yEuCXuXschGfB.pdf">D.4.2.Indicadores de Resultados</a></li>
+                                                    <!--<li><a href="">D.4.3.Programas y Proyectos de Inversión</a></li>-->
+                                                 </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="tab-pane fade show" id="IIT22" role="tabpanel">
+                                    <h3 style="color: black;">Segundo Trimestre 2022</h3>
+                                    
+                                    <div class="accordion accordion-flush" id="accordionFlushExample2">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne2">
+                                              <h4>D.2</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseOne2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/vmc600KSOsHfKop.pdf">D.2.1.Estado de Actividades</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/tu7Ta8xLYxDzX09.pdf">D.2.2.Estado de Situación Financiaera</a></li><br>
+                                                    <!--<li><a target="_blank" href="">D.2.3.Estado de Variación en la Hacienda Pública</a></li><br>
+                                                    <li><a target="_blank" href="">D.2.4.Estado de Cambios en la Situación</a></li><br>
+                                                    <li><a target="_blank" href="">D.2.5.Estados de Flujos de Efectivo</a></li><br>
+                                                    <li><a target="_blank" href="">D.2.6.Informe de Pasivos Contingentes</a></li><br>
+                                                    <li><a target="_blank" href="">D.2.7.Notas de los Estados Financieros</a></li><br>-->
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/66De1wtmiJtuAOk.pdf">D.2.8.Reporte Analítico del Activo</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/P9IAb6F8FdC2s4d.pdf">D.2.9.Estado Analítico de la Deuda y Otros Pasivos</a></li>
+                                                  </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo2" aria-expanded="false" aria-controls="flush-collapseTwo2">
+                                              <h4>D.3</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseTwo2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/Fy2DiIPNdnlyJFd.pdf">D.3.1.Estado Analítico de Ingresos</a></li>
+                                                    <!--<li><a target="_blank" href="">D.3.2.Estado Analítico del Ejercicio del Presupuesto de Egresos CLasificación</a></li><br>
+                                                    <li><a target="_blank" href="">D.3.3.Estado Analítico Presupuesto Egresos Clasificación Económica</a></li><br>
+                                                    <li><a target="_blank" href="">D.3.4.Clasificación por el Objeto de Gasto</a></li><br>
+                                                    <li><a target="_blank" href="">D.3.5.Clasificación Funcional</a></li><br>
+                                                    <li><a target="_blank" href="">D.3.6.Endeudamiento Neto</a></li><br>
+                                                    <li><a target="_blank" href="">D.3.7.Intereses de la Deuda</a></li>-->
+                                                  </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <!--<div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree2" aria-expanded="false" aria-controls="flush-collapseThree2">
+                                              <h4>D.4</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseThree2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a href="">D.4.1.Gasto por Categoría Programática</a></li><br>
+                                                    <li><a href="">D.4.2.Indicadores de Resultados</a></li><br>
+                                                    <li><a href="">D.4.3.Programas y Proyectos de Inversión</a></li>
+                                                 </ul>
+                                            </div>
+                                          </div>
+                                        </div>-->
+                                      </div>
+                                  </div>
+
+    
+                                  <div class="tab-pane fade show" id="IIIT22" role="tabpanel">
+                                    <h3 style="color: black;">Tercer Trimestre 2022</h3>
+                                    
+                                    <div class="accordion accordion-flush" id="accordionFlushExample3">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne3" aria-expanded="false" aria-controls="flush-collapseOne3">
+                                              <h4>D.2</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseOne3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample3">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/vmc600KSOsHfKop.pdf">D.2.1.Estado de Actividades</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/tu7Ta8xLYxDzX09.pdf">D.2.2.Estado de Situación Financiaera</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/nvX7psseam8zw67.pdf">D.2.3.Estado de Variación en la Hacienda Pública</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/KtbeoqjeahrRkUp.pdf">D.2.4.Estado de Cambios en la Situación</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/kYEOATyPARIzDXP.pdf">D.2.5.Estados de Flujos de Efectivo</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/KK4p9ZifWQz0SCQ.pdf">D.2.6.Informe de Pasivos Contingentes</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/S0gRxpMUjOLEDiS.pdf">D.2.7.Notas de los Estados Financieros</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/XUAaM8c93sg7U8c.pdf">D.2.8.Reporte Analítico del Activo</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/WaX1127Xy7k4BPY.pdf">D.2.9.Estado Analítico de la Deuda y Otros Pasivos</a></li>
+                                                  </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo3" aria-expanded="false" aria-controls="flush-collapseTwo3">
+                                              <h4>D.3</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseTwo3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample3">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/dXjNvnCwWx6r0YV.pdf">D.3.1.Estado Analítico de Ingresos</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/ExROmR4V3PFQiTV.pdf">D.3.2.Estado Analítico del Ejercicio del Presupuesto de Egresos CLasificación</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/Ut8DWxyqYQjUVAg.pdf">D.3.3.Estado Analítico Presupuesto Egresos Clasificación Económica</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/s5GcI4xQtsRBXAp.pdf">D.3.4.Clasificación por el Objeto de Gasto</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/irf8hZ3jgQSgmja.pdf">D.3.5.Clasificación Funcional</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/fzg5pBhUNZuAWaW.pdf">D.3.6.Endeudamiento Neto</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/uPbw1HeyYevKel1.pdf">D.3.7.Intereses de la Deuda</a></li>
+                                                  </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree3" aria-expanded="false" aria-controls="flush-collapseThree3">
+                                              <h4>D.4</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseThree3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample3">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/U5Qbt40JZ5OM3Gh.pdf">D.4.1.Gasto por Categoría Programática</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/XjZ8ZekgAuoL2CJ.pdf">D.4.2.Indicadores de Resultados</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/lYAZPpKVZi3Bc5v.pdf">D.4.3.Programas y Proyectos de Inversión</a></li>
+                                                 </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+    
+                                  <div class="tab-pane fade show" id="IVT22" role="tabpanel">
+                                    <h3 style="color: black;">Cuarto Trimestre 2022</h3>
+                                    
+                                    <div class="accordion accordion-flush" id="accordionFlushExample4">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne4" aria-expanded="false" aria-controls="flush-collapseOne4">
+                                              <h4>D.2</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseOne4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample4">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/pAGtfC7ZO19K7ux.pdf">D.2.1.Estado de Actividades</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/8gTu4jV0OK1heGA.pdf">D.2.2.Estado de Situación Financiaera</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/Xtk6rmXPF9HFTcZ.pdf">D.2.3.Estado de Variación en la Hacienda Pública</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/KjNz0C2sdGm6Shu.pdf">D.2.4.Estado de Cambios en la Situación</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/xAbXtKhEOiHyWu5.pdf">D.2.5.Estados de Flujos de Efectivo</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/8yuG5YDFLN4BowT.pdf">D.2.6.Informe de Pasivos Contingentes</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/qTw9MFdjjnzoL29.pdf">D.2.7.Notas de los Estados Financieros</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/cxgZTU6AtbtZR4E.pdf">D.2.8.Reporte Analítico del Activo</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/5fpezxhgZUpMY1T.pdf">D.2.9.Estado Analítico de la Deuda y Otros Pasivos</a></li>
+                                                  </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo4" aria-expanded="false" aria-controls="flush-collapseTwo4">
+                                              <h4>D.3</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseTwo4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample4">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/vVaVO4uTBR57YF8.pdf">D.3.1.Estado Analítico de Ingresos</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/yiNSK5jCYi4ZBaG.pdf">D.3.2.Estado Analítico del Ejercicio del Presupuesto de Egresos CLasificación</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/XK6vy9uIwb0ILUQ.pdf">D.3.3.Estado Analítico Presupuesto Egresos Clasificación Económica</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/lBKMAEs9zaCas2o.pdf">D.3.4.Clasificación por el Objeto de Gasto</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/PzB3pbsOUbdLTFZ.pdf">D.3.5.Clasificación Funcional</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/BaNS2Kzy4BLwLqT.pdf">D.3.6.Endeudamiento Neto</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/Pk65ELrhKLeCoRH.pdf">D.3.7.Intereses de la Deuda</a></li>
+                                                  </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree4" aria-expanded="false" aria-controls="flush-collapseThree4">
+                                              <h4>D.4</h4>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseThree4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample4">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/6Xp61swHq0p4jFj.pdf">D.4.1.Gasto por Categoría Programática</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/5ltMcmWaMxnzcFe.pdf">D.4.2.Indicadores de Resultados</a></li><br>
+                                                    <li><a target="_blank" href="http://osfags.gob.mx/Public/lYAZPpKVZi3Bc5v.pdf">D.4.3.Programas y Proyectos de Inversión</a></li>
+                                                 </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour4" aria-expanded="false" aria-controls="flush-collapseFour4">
+                                                <h4>D.5</h4>
+                                              </button>
+                                            </h2>
+                                            <div id="flush-collapseFour4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample4">
+                                              <div class="accordion-body">
+                                                  <ul>
+                                                      <li><a target="_blank" href="http://osfags.gob.mx/Public/5E262YOpcGTqhH6.pdf">D.5.4.Inventario Bienes Muebles</a></li>
+                                                   </ul>
+                                              </div>
+                                            </div>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+    
+          </div>
+    
+
+
+
+    <p> <a title="Ir Arriba" class="btn" role="button" onclick="scrolly()" id="btn-arriba" ><i class="fa-solid fa-arrow-up"></i></a></p>
+    <br><br><br>
+    <footer class="footer">
+      <div class="row">
+        <div class="col-lg-4 col-md-12">
+            <main class="main-txt-footer">
+            <p style="color: white; text-align: center">
+              
+              <b>Dirección:</b> Sierra Pintada 102, Bosques del Prado Sur, 20130
+              Aguascalientes.<br />
+
+              <b>¿Alguna pregunta?</b> 
+              <a id="contacto" href="mailto:contacto@osfags.gob.mx">contacto@osfags.gob.mx</a> <br />
+
+              <b>Llámenos: </b> 
+              (449) 918 3614 <br />
+              (449) 918 3615 <br />
+              (449) 918 3616
+            </p>
+          </main>
+          </div>
+
+              <div class="col-lg-4 col-md-12">
+
+                <main class="botones-footer">
+
+                  <a id="mail" title="E-Mail" class="btn mb-3" href="mailto:contacto@osfags.gob.mx" role="button" >
+                    <i class="fa-regular fa-envelope"></i>
+                  </a>
+  
+                  <a target="_blank" rel="noopener noreferrer" title="Facebook" id="facebook" class="btn mb-3" style="width: auto;" href="https://www.facebook.com/%C3%93rgano-Superior-de-Fiscalizaci%C3%B3n-del-Estado-de-Aguascalientes-Oficial-105374757941296" role="button">
+                    <i class="fa-brands fa-square-facebook"></i>
+                  </a>
+  
+                  <a target="_blank" rel="noopener noreferrer" title="YouTube" id="youtube" class="btn mb-3" href="https://www.youtube.com/@organosuperiordefiscalizac545" role="button">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+  
+                  <a target="_blank" rel="noopener noreferrer" title="Twitter" id="twitter" class="btn mb-3" href="https://twitter.com/osf_ags" role="button">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a> <br>
+              </main>
+              </div>
+
+
+        <div class="col-lg-4 col-md-12">
+          <main class="main-img-footer">
+            <img src="../assets/img/logoOsFAGSBlanco_convert.png" alt="Órgano Superior de Fiscalización del Estado de Aguascalientes"
+            title="Órgano Superior de Fiscalización del Estado de Aguascalientes" id="img-logo4"/>
+          </main>
+          
+        </div>
+      </div>
+  </footer>
+    <script src="../assets/js/arriba.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre el OSFAGS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/tabs2.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/menu.css">
+    <link rel="stylesheet" href="../assets/css/medias.css">
+    <link rel="icon" href="../assets/img/home-favicon.ico">
+
+     <!--User Way-->
+     <!--<script src="https://cdn.userway.org/widget.js" data-account="FfyPNo0Rq8"></script>-->
+     <!--Iconos FA-->
+     <script src="https://kit.fontawesome.com/1ab87fe933.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        
+  <div class="row">
+    <div class="col-md-12">
+      <div class="navegacion-menu ">
+        <ul class="nav-back-logo">
+          <li class="nav-item-back">
+              
+          </li><br><br><br>
+          <li class="nav-item-logo" style="text-align: center">
+              <a href="../index.html">
+                  <img src="../assets/img/logo2.png" alt="Órgano Superior de Fiscalización del Estado de Aguascalientes" title="Inicio" width="190px">
+              </a>
+          </li>
+      </ul>
+
+      <ul class="nav nav-tabs nav-tabs-menu" id="menu" role="tablist" style="text-align: center;">
+
+        <li class="nav-item nav-item-menu">
+          <a class="nav-link nav-link-menu" href="../index.html" role="tab" >Inicio</a>
+        </li>
+
+        <li class="nav-item dropdown nav-item-menu">
+          <a class="nav-link dropdown-toggle nav-link-dropdown-toggle-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Transparencia
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item dropdown-item-submenu" href="transparencia.html">Obligaciones de Transparencia</a></li>
+            <li><a class="dropdown-item dropdown-item-submenu" href="avisos.html">Avisos de Privacidad</a></li>
+            <li><a class="dropdown-item dropdown-item-submenu" href="sevac.html">SEVAC</a></li>
+            <li><a class="dropdown-item dropdown-item-submenu" href="disciplina-financiera.html">Disciplina Financiera</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown nav-item-menu">
+          <a class="nav-link dropdown-toggle nav-link-dropdown-toggle-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Programas
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item dropdown-item-submenu" target="_blank" href="http://osfags.gob.mx/Public/pySaoFDF3Agajvt.pdf">Programa de Actividades 2023</a></li>
+            <li><a class="dropdown-item dropdown-item-submenu" target="_blank" href="http://osfags.gob.mx/Public/XulrIRUvXTOPone.pdf">Plan de Auditorías Cuenta Pública 2022</a></li>
+            <li><a class="dropdown-item dropdown-item-submenu" target="_blank" href="http://osfags.gob.mx/Public/d5KeTCBheUUv4kr.pdf">Plan Anual de Adquisiciones, Arrendamientos y Servicios</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item nav-item-menu">
+          <a class="nav-link nav-link-menu" href="../denuncia/index.html" role="tab" >Denuncia</a>
+        </li>
+
+        <li class="nav-item nav-item-menu">
+          <a class="nav-link nav-link-menu" href="../contacto/index.html" role="tab" >Contacto</a>
+        </li>
+
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+      <!--Aqui se encarga de mostrar datos del OSFAGS como organigrama, dptos, coordinaciones, directorio, etc.-->
+
+    <div class="container">
+      <hr>
+        <div class="row">
+          <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="card">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist" style="text-align: center;">
+                      <!--Aqui se ponen en formato de lista los tabs que se quieren mostrar como el tiulo de cada uno
+                      **Al momento de entrar a esta pagina o al recargar la página se muestra uno por 'default' y se muestra con 
+                      la propiedad active** de igual manera su contenido con el id tiene un active //En este caso el organigrama
+ 
+                      Todos tienen un id ya que con eso llaman al contenido que tiene cada uno
+                      -->
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" data-toggle="dropdown">Estructura Orgánica</a>
+                          <div class="dropdown-menu m-0 p-0 border-0" >
+                            <a class="dropdown-item active" data-toggle="tab" href="#organigrama">Organigrama</a>
+
+                          </div>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" data-toggle="dropdown">Estructura Funcional</a>
+                          <div class="dropdown-menu m-0 p-0 border-0">
+                              <a href="#desp-auditor" class="dropdown-item" data-toggle="tab">1. Auditor Superior</a>
+                              <a href="#tecnica" class="dropdown-item" data-toggle="tab">2. Secretaría Técnica</a>
+                              <a href="#respon" class="dropdown-item" data-toggle="tab">3. Coordinación de Responsabilidades <br> Administrativas</a>
+                              <a href="#archivo" class="dropdown-item" data-toggle="tab">4. Coordinación de Archivo, Normatividad <br> y Transparencia</a>
+                              <a href="#audi-rev" class="dropdown-item" data-toggle="tab">5. Dirección Auditoría y Revisión de Cuenta <br> Pública</a>
+                              <a href="#juridica" class="dropdown-item" data-toggle="tab">6. Dirección Jurídica</a>
+                              <a href="#admin" class="dropdown-item" data-toggle="tab">7. Dirección Administrativa</a>
+                              <a href="#planeacion" class="dropdown-item" data-toggle="tab">8. Dirección de Analisis, Control y <br> Seguimiento</a>
+                              <a href="#desempeño" class="dropdown-item" data-toggle="tab">9. Dirección de Auditoría de Desempeño</a>
+                          </div>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown">Directorio General</a>
+                        <div class="dropdown-menu m-0 p-0 border-0">
+                            <a href="#dir-auditor" class="dropdown-item" data-toggle="tab">1. Auditor Superior</a>
+                            <a href="#dir-despacho" class="dropdown-item" data-toggle="tab">2. Despacho del Auditor Superior</a>
+                            <a href="#dir-direcciones" class="dropdown-item" data-toggle="tab">3. Direcciones</a>
+                            <!--<a href="#dir-direcciones" class="dropdown-item" data-toggle="tab">4. Direcciones</a>--> 
+                        </div>
+                      </li>
+
+                    </ul>
+                      <div class="tab-content" id="myTabContent">
+
+                        <!--Todos tienen un div con un id en especifico ya que sera por ese medio como el tab principal /el titulo/
+                          llama a su contenido /id/
+                        -->
+
+                        <div class="tab-pane fade" id="desp-auditor" role="tabpanel">
+                            <h3>Auditor Superior</h3>
+                            <p> El Auditor Superior, además de las atribuciones señaladas en la Ley, tendrá las siguientes: </p>
+                              <ol id="ul-I">
+                                <li>Aprobar</li>
+                                  <ol id="ul-a">
+                                    <li>El Programa Anual de Actividades;</li>
+                                    <li>El Programa Anual de Auditorías, Visitas e Inspecciones;</li>
+                                    <li>El Programa Anual de Evaluaciones;</li>
+                                    <li>El Programa de Fortalecimiento Jurídico Integral, y</li>
+                                    <li>Los demás Programas que requiera el Órgano Superior, para el cumplimiento de sus funciones. </li>
+                                  </ol><br>
+                                <li>Verificar la aplicación de las normas técnicas, procedimientos y metodologías a que deban 
+                                  sujetarse los procesos de fiscalización que ordene; </li>
+                                <li>Asignar la coordinación, supervisión y ejecución de proyectos, planes o programas y acciones específicas a la Unidad 
+                                  Administrativa que considere pertinente.</li>
+                                <li>Crear, modificar, extinguir o fusionar otras unidades administrativas para el auxilio de sus funciones.</li>
+                                <li>Ordenar la práctica de auditorías a las entidades fiscalizables conforme al programa aprobado; </li>
+                                <li>Dar cumplimiento, en los términos que determine el H. Congreso del Estado, a los dictámenes de aprobación de 
+                                  los Informes del Resultado respectivos;</li>
+                                <li>Detectar, en los Informes del resultado de las auditorías, las posibles faltas administrativas, a fin de 
+                                  dar cuenta a las autoridades competentes según corresponda, para que continúen la investigación respectiva 
+                                  y promuevan las acciones que procedan. VIII. Investigar y substanciar, el procedimiento por la comisión de 
+                                  posibles faltas administrativas graves; </li>
+                                <li>Ordenar el seguimiento de las acciones promovidas y recomendaciones que radiquen las autoridades 
+                                  por la comisión de posibles faltas administrativas; </li>
+                                <li>Ordenar la práctica de auditorías internas a los propios recursos financieros, humanos, materiales y 
+                                  tecnológicos del Órgano Superior que estime pertinentes, a través de despachos externos, en caso necesario;</li>
+                                <li>Establecer criterios para la imposición de multas; </li>
+                                <li>Solicitar a la Secretaría de Finanzas del Estado el inicio del Procedimiento Administrativo de 
+                                  Ejecución cuando el servidor público y/o personas físicas o morales, públicas o privadas, no 
+                                  realicen, dentro del plazo de ley, el pago de la o las multas impuestas; </li>
+                                <li>Expedir las constancias de identificación de los servidores públicos para acreditar 
+                                  su personalidad en la realización de sus funciones; </li>
+                                <li>Comisionar a los auditores para ejecutar las auditorias, inspecciones y visitas;</li>
+                                <li>Certificar, cuando así se requiera, los documentos físicos y/o digitales que obran en los archivos del Órgano Superior; </li>
+                                <li>Formar parte en los comités que por ley es integrante, y en su caso, designar a su suplente, 
+                                  que recaerá en un subordinado con nivel de director o coordinador; XVII.Gestionar, en caso 
+                                  necesario, recursos humanos, materiales y financieros, para el cumplimiento de las funciones 
+                                  que le competen al Órgano Superior dentro del Sistema Estatal de Fiscalización, y</li>
+                                <li>Las demás que le confieran otras disposiciones legales aplicables.</li>
+                              </ol>
+                        </div>
+
+                        <div class="tab-pane fade" id="tecnica" role="tabpanel">
+                          <h3>Secretaría Técnica</h3>
+                          <p> Tendrá las siguientes funciones: </p>
+                            <ol id="ul-I">
+                              <li>Fungir como enlace con las instituciones públicas o privadas que el Auditor Superior le encomiende;</li>
+                              <li>Coordinar las actividades del Auditor Superior que le resulten por acuerdo, colaboración o compromisos
+                                  oficiales con otras instituciones públicas o privadas, estatales, nacionales o internacionales; </li>
+                              <li>Vincular con instituciones públicas o privadas, a través de convenios, las actividades, planes o 
+                                  programas institucionales;</li>
+                              <li>Diseñar formatos, directrices, indicadores de gestión y criterios de evaluación de desempeño de actividades, 
+                                  que deberán cumplir las unidades administrativas, en la elaboración y ejecución de proyectos, planes y programas; </li>
+                              <li>Proponer, al Auditor Superior, mecanismos de coordinación, programación, control y evaluación operativa y 
+                                  funcional del personal adscrito al Despacho;</li>
+                              <li>Recabar información del avance de actividades, planes y programas de las direcciones, coordinaciones 
+                                  y demás unidades administrativas; </li>
+                              <li>Informar al Auditor Superior el avance de las actividades, proyectos, planes  y programas de las diversas
+                                  unidades administrativas; </li>
+                              <li>Coordinar e Integrar el Programa Anual de Actividades, el Programa Anual de Auditorías, Visitas 
+                                  e Inspecciones y el Programa Anual de Evaluaciones del año previo al de su aplicación, con la información 
+                                  que le proporcione cada una de las direcciones, coordinaciones y demás unidades administrativas; </li>
+                              <li>Promover el diseño, desarrollo y operación de sistemas informáticos que requieran las diversas unidades administrativas; </li>
+                              <li>Monitorear y analizar la información en los medios de comunicación masiva e informar oportunamente 
+                                la que revista interés para el Órgano Superior; </li>
+                              <li>Difundir la información de las actividades institucionales a través de los medios de comunicación masiva; </li>
+                              <li>Difundir en el portal oficial las actividades, proyectos, planes o programas y demás información relevante; </li>
+                              <li>Difundir, por el correo institucional los acuerdos, circulares, lineamientos, Manuales de organización y 
+                                  procedimientos que sean de observancia obligatoria para los servidores públicos del Órgano Superior; </li>
+                              <li>Desarrollar, atender y actualizar las cuentas institucionales de las redes sociales y del portal oficial;</li>
+                              <li>Informar al Auditor Superior del despacho de los asuntos de su competencia, así como de las actividades 
+                                que se le hubiere asignado, y</li>
+                              <li>Las demás que determine el Auditor Superior.</li>
+                            </ol>
+                        </div>
+
+                        <div class="tab-pane fade" id="respon" role="tabpanel">
+                          <h3>Coordinación de Responsabilidades Administrativas</h3>
+                          <p>Tendrá, las siguientes atribuciones: </p>
+                            <ol id="ul-I">
+                              <li>Elaborar y ejecutar el Programa de Fortalecimiento Jurídico Integral y proponer modificaciones de manera 
+                                  justificada, de conformidad a los lineamientos establecidos; </li>
+                              <li>Detectar las posibles faltas administrativas, a fin de dar cuenta a las autoridades competentes, 
+                                para que continúen la investigación respectiva y resuelvan lo que en derecho proceda;</li>
+                              <li>Coordinar, funcional y orgánicamente, a las Autoridades investigadora y Substanciadora del Órgano 
+                                Superior, encargadas de los procedimientos administrativos que deriven del proceso de fiscalización 
+                                por la probable comisión de faltas graves; </li>
+                              <li>Dar seguimiento al avance de la investigación y substanciación de las posibles faltas administrativa graves; </li>
+                              <li>Informar, al Auditor Superior, la situación que guarda la investigación y substanciación de las 
+                                posibles faltas administrativa graves; </li>
+                              <li>Llevar la agenda de la sala de audiencias y programar las audiencias; </li>
+                              <li>Vigilar que las audiencias que le competen a la autoridad substanciadora, dentro del procedimiento 
+                                  de responsabilidad administrativa, se lleven a cabo en tiempo y forma, así como llevar su registro
+                                  en audio y video; </li>
+                              <li>Supervisar que el personal a su cargo cumpla, en el ejercicio de sus funciones, con el Manual 
+                                  de Organización y Procedimientos de la Coordinación a su cargo y ciñan su actuación a los protocolos 
+                                  de investigación y substanciación, así como a la normatividad aplicable; y </li>
+                              <li>Las demás que confieran la normatividad aplicable, el Manual de Organización y Procedimientos de
+                                  la Coordinación de Responsabilidades Administrativas y demás que le asigne el Auditor Superior en 
+                                  materia de responsabilidades administrativas.</li>
+                            </ol>
+                        </div>
+
+                        <div class="tab-pane fade" id="archivo" role="tabpanel">
+                          <h3>Coordinación de Archivo, Normatividad y Transparencia</h3>
+                          <p>Tendrá las siguientes atribuciones: </p>
+                            <ol id="ul-I">
+                              <li>Mantener actualizado el marco normativo; </li>
+                              <li>Integrar y actualizar una base de datos con la normatividad y reglamentación de los entes fiscalizados; </li>
+                              <li>Representar legalmente al titular del Órgano Superior ante cualquier autoridad administrativa o judicial en defensa 
+                                  de un interés legítimo o exigencia de un derecho, excepto en asuntos que deriven de un procedimiento de auditoría y 
+                                  fiscalización; </li>
+                              <li>Elaborar acuerdos, lineamientos, circulares y demás disposiciones administrativas internas que le requieran las
+                                  unidades para el desempeño de sus funciones;</li>
+                              <li>Elaborar y validar juntamente con el área requirente los Manuales de organización y procedimientos que 
+                                  requieran para el desempeño de sus funciones; </li>
+                              <li>Elaborar los contratos y convenios en los que el Órgano Superior sea parte; </li>
+                              <li>Elaborar los formatos de las actas administrativas que le requieran las unidades administrativas, 
+                                  excepto las que deriven de un procedimiento de auditoría y fiscalización;</li>
+                              <li>Coordinar la Unidad de Transparencia y cumplir con las obligaciones que le competen al Órgano Superior como sujeto obligado; </li>
+                              <li>Asesorar a las unidades administrativas en la atención a las solicitudes de información que se les requiera a través
+                                  de la Plataforma Nacional de Transparencia y en la clasificación de la información y protección de datos; </li>
+                              <li>Coordinar la gestión de la información que produzca, genera o reciba, así como coordinar las funciones del archivo, y </li>
+                              <li>Las demás que le asignen otras disposiciones legales, así como el Auditor Superior.</li>
+                            </ol>
+                        </div>
+
+                        <div class="tab-pane fade" id="audi-rev" role="tabpanel">
+                          <h3>Dirección Auditoría y Revisión de Cuenta Pública</h3>
+                          <p> Tendrá las siguientes atribuciones: </p>
+                            <ol id="ul-I">
+                              <li>Elaborar el proyecto del Programa Anual de Auditorías, Visitas e Inspecciones y proponer modificaciones de manera 
+                                  justificada, de conformidad a los lineamientos establecidos para el efecto; </li>
+                              <li>Realizar auditorías, visitas, compulsas e inspecciones, conforme al Programa Anual de Auditorías, 
+                                  Visitas e Inspecciones aprobado por el Auditor Superior;</li>
+                              <li>Revisar, analizar y fiscalizar las cuentas públicas de las Entidades fiscalizadas, de 
+                                  conformidad con la legislación y normatividad aplicables; </li>
+                              <li>Fiscalizar los recursos públicos federales de conformidad con la legislación aplicable y los 
+                                  convenios de colaboración y coordinación celebrados con la Auditoria Superior de la Federación; </li>
+                              <li>Verificar que las auditorías incluyan la revisión de los resultados presupuestales, económicos 
+                                  y financieros consignados en la cuenta pública; así como los resultados contables y su incidencia 
+                                  en cuentas patrimoniales o de balance; </li>
+                              <li>Formular los estudios, opiniones, dictámenes, informes y demás documentos que le sean requeridos por el Auditor Superior; </li>
+                              <li>Formular y elaborar las observaciones, las acciones promovidas y recomendaciones que deriven 
+                                  de los procedimientos de fiscalización, para su integración en los informes de observaciones 
+                                  preliminares y del resultado, según corresponda; </li>
+                              <li>Elaborar y someter a la aprobación del Auditor Superior los proyectos de informes de Observaciones 
+                                  Preliminares y del Resultado que deriven de la revisión a las Entidades Fiscalizadas; </li>
+                              <li>Llevar a cabo, la reunión de confronta con el titular o representante de la Entidad fiscalizada;</li>
+                              <li>Informar al Auditor Superior cuando éste lo solicite, sobre el avance del Programa Anual de 
+                                  Auditorías, Visitas e Inspecciones; </li>
+                              <li>Levantar actas en el proceso de fiscalización en coordinación con la Dirección Jurídica; </li>
+                              <li>Elaborar y someter a la aprobación del Auditor Superior el proyecto de los informes de observaciones 
+                                preliminares y del resultado;</li>
+                              <li>Informar al Auditor Superior cuando una persona física, moral o un servidor público de las entidades 
+                                  fiscalizadas no proporcionen la información y documentación requerida;</li>
+                              <li>Elaborar y mantener actualizados los lineamientos y Manuales de procedimientos en materia de fiscalización;</li>
+                              <li>Elaborar la agenda de auditorías, visitas e inspecciones y designar el personal para 
+                                efectuar la revisión, con base en la planeación;</li>
+                              <li>Fiscalizar las situaciones excepcionales, que determine el Auditor Superior en los términos establecidos en la Ley; </li>
+                              <li>Emitir la opinión de cumplimiento de la publicación de la información financiera establecida por 
+                                  la Ley de Disciplina Financiera de las Entidades Federativas y los Municipios; </li>
+                              <li>Validar las cifras de recaudación del impuesto predial y de los derechos de agua de los municipios del Estado; </li>
+                              <li>Validar la información y evidencia del cumplimiento presentadas a través del Sistema de Evaluación 
+                                  de Armonización Contable, y</li>
+                              <li>Las demás que le confieran las disposiciones legales aplicables, los Manuales de organización y de 
+                                procedimientos o las que asigne directamente el Auditor Superior.</li>
+                            </ol>
+                        </div>
+
+                        <div class="tab-pane fade" id="juridica" role="tabpanel">
+                          <h3>Dirección Jurídica</h3>
+                          <p>Tendrá las siguientes atribuciones: </p>
+                            <ol id="ul-I">
+                              <li>Asesorar jurídicamente al Auditor Superior y a los demás servidores públicos del Órgano Superior, en materia de fiscalización; </li>
+                              <li>Asesorar jurídicamente a las Entidades fiscalizadas en materia de fiscalización; </li>
+                              <li>Representar al Auditor Superior y ejercer las acciones correspondientes en juicios y procedimientos derivados 
+                                  del proceso de fiscalización en los que el Órgano Superior sea parte; </li>
+                              <li>Sustanciar el recurso de revocación al que hace referencia la Ley, presentando el proyecto de resolución al Auditor
+                                  Superior para que éste resuelva;</li>
+                              <li>Elaborar y actualizar los formatos de actas de notificaciones, actas parciales de inicio, actas de entrega de documentación, 
+                                  actas finales de visita, actas de confronta y las demás que se requieran en el desarrollo de los procedimientos de fiscalización; </li>
+                              <li> Elaborar las órdenes de visita en los términos y especificaciones solicitados por los Titulares de las Direcciones de Auditoría 
+                                y Revisión de Cuenta Pública, de Auditoría de Desempeño y de Análisis, Control y Seguimiento, conforme al Programa Anual de Auditorías, 
+                                Visitas e Inspecciones;</li>
+                              <li>Elaborar requerimientos, acuerdos de imposición de multas y demás documentos que se requieran para el ejercicio de sus 
+                                atribuciones, dentro de los procedimientos de fiscalización;</li>
+                              <li>Asesorar jurídicamente a los auditores y demás personal que participe en los procedimientos de fiscalización, en la formulación 
+                                de las observaciones, acciones promovidas y recomendaciones que deriven de la revisión de la cuenta pública;</li>
+                              <li>Validar el fundamento jurídico de las observaciones, acciones promovidas y recomendaciones contenidas en el 
+                                Informe de Observaciones Preliminares y en el Informe del Resultado; </li>
+                              <li>Notificar resoluciones, multas y demás actos administrativos que emita el Órgano Superior dentro del procedimiento
+                                de fiscalización, y</li>
+                              <li>Las demás que le confieran las disposiciones legales aplicables, los Manuales de organización y de procedimientos o las 
+                                que asigne directamente el Auditor Superior.</li>
+                            </ol>
+                        </div>
+
+                        <div class="tab-pane fade" id="admin" role="tabpanel">
+                          <h3>Dirección Administrativa</h3>
+                          <p>Tendrá las siguientes atribuciones: </p>
+                            <ol id="ul-I">
+                              <li>Administrar los recursos financieros, humanos y materiales de conformidad con las disposiciones legales, administrativas y 
+                                acorde con las políticas que emita el propio Órgano Superior;</li>
+                              <li>Elaborar y someter a consideración del Auditor Superior el proyecto de Presupuesto Anual y vigilar su correcta y oportuna 
+                                ejecución;</li>
+                              <li>Ejercer y glosar el presupuesto autorizado; </li>
+                              <li>Aplicar un sistema de contabilidad a efecto de cumplir con la normatividad en materia de contabilidad gubernamental;</li>
+                              <li>Elaborar y entregar mensualmente los estados e informes financieros y presupuestales; </li>
+                              <li>Programar, presupuestar, ejecutar y controlar el gasto, así como integrar y validar la información que lo soporte; </li>
+                              <li>Registrar y controlar el ejercicio presupuestal;</li>
+                              <li>Elaborar los informes necesarios para la integración de la Cuenta Pública; </li>
+                              <li>Pagar los sueldos, salarios y demás prestaciones al personal; </li>
+                              <li>Pagar a proveedores de bienes, servicios y arrendamientos, de acuerdo con las disposiciones del Manual de Adquisiciones, 
+                                Arrendamientos y Servicios del Órgano Superior;</li>
+                              <li>Proponer al Auditor Superior la incorporación, destino y desincorporación de bienes muebles e inmuebles del dominio 
+                                público del Estado afectos a su servicio;</li>
+                              <li>Elaborar y ejecutar el programa anual de adquisiciones de bienes, servicios y arrendamientos y el programa anual de 
+                                mantenimiento preventivo de vehículos y de mobiliario;</li>
+                              <li>Inventariar los bienes muebles para su control;</li>
+                              <li>Vigilar el cumplimiento de la normatividad relativa a la protección civil, la seguridad e higiene de las áreas comunes y de trabajo; </li>
+                              <li>Llevar a cabo los procedimientos de adquisición de conformidad al Manual de Adquisiciones, Arrendamientos y Servicios
+                                del Órgano Superior y demás disposiciones aplicables;</li>
+                              <li>Tramitar y gestionar ingresos, nombramientos, remociones, renuncias, licencias, comisiones, jubilaciones, 
+                                término de la relación laboral, pago de indemnizaciones y cualquier otro movimiento administrativo que modifique 
+                                la relación laboral de los servidores públicos;</li>
+                              <li>Emitir las bases o lineamientos para la incorporación, planeación, organización, operación, desarrollo, control, 
+                                evaluación y ascensos del Servicio Fiscalizador de Carrera del Órgano Superior; </li>
+                              <li>Proponer al Auditor Superior el Programa de otorgamiento de incentivos, bonos y estímulos a los servidores públicos del 
+                                Órgano Superior;</li>
+                              <li>Gestionar convenios de colaboración y vinculación con instituciones académicas públicas y privadas, 
+                                para beneficio del personal;</li>
+                              <li>Elaborar, ejecutar y evaluar el programa anual de capacitación; </li>
+                              <li>Asesorar a los servidores públicos, en lo relativo a la declaración de situación patrimonial, 
+                                así como en el procedimiento de entrega recepción, en su caso;</li>
+                              <li>Procurar contar con las unidades, comités o cualquier órgano colegiado que, por disposición normativa, tenga la 
+                                obligación de integrarse o instalarse dentro del Órgano Superior; </li>
+                              <li>Coordinar las actividades de la Unidad de Sistemas y Seguridad Informática, así como la de Soporte Técnico, y </li>
+                              <li>Las demás que le asignen otras disposiciones legales, manuales de organización y procedimientos o le designe el Auditor Superior.</li>
+                            </ol>
+                        </div>
+                        
+                        <div class="tab-pane fade" id="planeacion" role="tabpanel">
+                          <h3>Dirección de Analisis, Control y Seguimiento</h3>
+                          <p>Tendrá las siguientes atribuciones: </p>
+                            <ol id="ul-I">
+                              <li>Dar seguimiento al avance y situación que guardan los procedimientos de responsabilidades administrativas que radiquen los OIC 
+                                y la Coordinación de Responsabilidades Administrativas, con motivo de posibles faltas de su competencia, hasta su conclusión; </li>
+                              <li>Elaborar el Informe sobre el avance la situación que guardan los procedimientos de responsabilidades administrativas para 
+                                la aprobación del Auditor Superior y posterior remisión al H. Congreso del Estado; </li>
+                              <li>Analizar y elaborar el Informe de Avance de Gestión Financiera de las Entidades fiscalizadas, para la aprobación del Auditor 
+                                Superior y posterior remisión al H. Congreso del Estado;</li>
+                              <li>Realizar el estudio y evaluación del control interno de las Entidades fiscalizadas de acuerdo con el Programa Anual de Auditorías, 
+                                Visitas e Inspecciones;</li>
+                              <li>Realizar visitas de inspección a las Entidades fiscalizadas, para verificar el cumplimiento en materia de control interno, 
+                                de acuerdo con Programa Anual de Auditorías, Visitas e Inspecciones; </li>
+                              <li>Levantar las actas que se requieran, dentro del proceso de fiscalización, en coordinación con la Dirección Jurídica;</li>
+                              <li>Elaborar las observaciones y recomendaciones en materia de control interno, para su incorporación en el Informe de 
+                                Observaciones Preliminares y en el informe del Resultado; </li>
+                              <li>Llevar a cabo, la reunión de confronta con el titular o 
+                                representante de la Entidad fiscalizada;</li>
+                              <li>Proponer al Auditor Superior los criterios e indicadores de revisión para la fiscalización y la práctica de auditorías 
+                                en materia de control interno;</li>
+                              <li>Requerir la información y documentación a las entidades fiscalizables para la planeación y práctica de auditorías, visitas e 
+                                inspecciones en materia de control interno; </li>
+                              <li>Determinar y elaborar las observaciones que deriven de los informes de avance de gestión financiera de las Entidades 
+                                fiscalizadas, de acuerdo con el Programa Anual de Auditorías, Visitas e Inspecciones, para su incorporación en el informe 
+                                de observaciones preliminares y en el del resultado, y </li>
+                              <li>Las demás que le confieran las disposiciones legales aplicables, los Manuales de organización y de procedimientos o las que 
+                                asigne directamente el Auditor Superior.</li>
+                            </ol>
+                        </div>
+
+                        <div class="tab-pane fade" id="desempeño" role="tabpanel">
+                          <h3>Dirección de Auditoría de Desempeño</h3>
+                          <p>Tendrá las siguientes atribuciones: </p>
+                            <ol id="ul-I">
+                              <li>Elaborar y someter a la aprobación del Auditor Superior el proyecto de Programa Anual de Auditoría de Desempeño; </li>
+                              <li>Realizar auditorías de desempeño de conformidad a la normatividad y lineamientos aplicables; </li>
+                              <li>Elaborar los calendarios de auditorías, visitas e inspecciones y designar el personal para efectuar la 
+                                  revisión con base en la planeación;</li>
+                              <li>Levantar las actas que se requieran dentro del proceso de fiscalización en coordinación con la Dirección Jurídica; </li>
+                              <li>Formular las observaciones y recomendaciones que se deriven de la revisión de desempeño realizada a las Entidades Fiscalizadas; </li>
+                              <li>Elaborar y someter a la aprobación del Auditor Superior los proyectos de informes de Observaciones 
+                                  Preliminares y del Resultado que deriven de la revisión a las Entidades Fiscalizadas; en materia de Desempeño; </li>
+                              <li>Llevar a cabo, la reunión de confronta con el titular o representante de la Entidad fiscalizada; </li>
+                              <li>Analizar la información remitida por las Entidades fiscalizadas para solventar las observaciones que así proceda; </li>
+                              <li>Elaborar el Informe del Resultado de Desempeño derivado de la revisión a las Entidades fiscalizadas, y </li>
+                              <li>Las demás que le confieran las disposiciones legales aplicables, los Manuales de organización y de procedimientos
+                                o las que asigne directamente el Auditor Superior. </li>
+                            </ol>
+                        </div>
+
+
+                        <div class="tab-pane fade" id="dir-auditor" role="tabpanel">
+                          <h3>Auditor Superior</h3>
+
+                          <div class="card" id="contnt3">
+                            <div class="row g-0" >
+                              <div class="col-md-4">
+                                <img src="../assets/img/person/AS.jpg" class="imgperson-dir" alt="...">
+                              </div>
+                              <div class="col-md-8 p-2 mx-auto text-center">
+                                <div class="card-body">
+                                  <p class="textnt11">Lic. Francisco Martín Muñoz Castillo</p>
+                                  <p class="textnt22">Auditor Superior</p>
+                                  <a class="correo-personal-g" href="mailto:francisco.munoz@osfags.gob.mx">francisco.munoz@osfags.gob.mx</a>
+                                  <p class="textnt33">449 123-4567 Ext. 102</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div class="card" id="contnt3" style="background-color: #1bb7a2;">
+                            <div class="row g-0" >
+                              <div class="col-md-4">
+                                <img src="../assets/img/person/AN.jpeg" class="imgperson" alt="...">
+                              </div>
+                              <div class="col-md-8 p-2 mx-auto text-center">
+                                <div class="card-body">
+                                  <p class="textnt111">Alicia Isabel Navarro Martínez</p>
+                                  <p class="textnt221">Secretaria Particular</p>
+                                  <a class="correo-personal" href="mailto:alicia.navarro@osfags.gob.mx">alicia.navarro@osfags.gob.mx</a>
+                                  <p class="textnt331">449 123-4567 Ext. 116</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="card" id="contnt3" style="background-color: #1bb7a2;">
+                            <div class="row g-0" >
+                              <div class="col-md-4">
+                                <img src="../assets/img/person.jpg" class="imgperson" alt="...">
+                              </div>
+                              <div class="col-md-8 p-2 mx-auto text-center">
+                                <div class="card-body">
+                                  <p class="textnt111">Secretaria 2</p>
+                                  <p class="textnt221">Unidad de Recepción y Correspondencia</p>
+                                  <a class="correo-personal" href="mailto:correo@osfags.com">correo@osfags.com</a>
+                                  <p class="textnt331">449 123-4567 Ext. 000</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                          <div class="tab-pane fade" id="dir-despacho" role="tabpanel">
+                            <h3>Despacho del Auditor Superior</h3>
+
+                            <!--Aqui se creo un acodio que esta dividido en 4 o 5 secciones dependiendo el trimesgr y muestra los datos y
+                            documento que se quiere mostrar.-->
+                            
+                            <div class="accordion accordion-flush" id="accordionFlushExample2">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Acord-Tecnica" aria-expanded="false" aria-controls="Acord-Tecnica">
+                                      <h4>Secretaría Técnica</h4>
+                                    </button>
+                                  </h2>
+                                  <div id="Acord-Tecnica" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
+                                    <div class="accordion-body">
+                                      <div class="card" id="contnt3">
+                                        <div class="row g-0" >
+                                          <div class="col-md-4">
+                                            <img src="../assets/img/person/MB.jpg" class="imgperson-dir" alt="...">
+                                          </div>
+                                          <div class="col-md-8 p-2 mx-auto text-center">
+                                            <div class="card-body">
+                                              <p class="textnt11">Lic. Mario Hiram Bravo de Luna</p>
+                                              <p class="textnt22">Secretaría Técnica</p>
+                                              <a class="correo-personal-g" href="mailto:mario.bravo@osfags.gob.mx">mario.bravo@osfags.gob.mx</a>
+                                              <p class="textnt33">449 123-4567 Ext. 112</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Acord-Coordinacion" aria-expanded="false" aria-controls="Acord-Coordinacion">
+                                      <h4>Coordinaciones</h4>
+                                    </button>
+                                  </h2>
+                                  <div id="Acord-Coordinacion" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
+                                    <div class="accordion-body">
+                                      
+                                      <div class="card" id="contnt3">
+                                        <div class="row g-0" >
+                                          <div class="col-md-4">
+                                            <img src="../assets/img/person/IMG_4999_AA.JPG" class="imgperson-dir" alt="...">
+                                          </div>
+                                          <div class="col-md-8 p-2 mx-auto text-center">
+                                            <div class="card-body">
+                                              <p class="textnt11">Lic. Armando Reyes Robles Arenas</p>
+                                              <p class="textnt22">Coordinador de Responsabilidades Administrativas</p>
+                                              <a class="correo-personal-g" href="mailto:armando.reyesra@osfags.gob.mx">armando.reyesra@osfags.gob.mx</a>
+                                              <p class="textnt33">449 123-4567 Ext. 1050</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+            
+                                      <div class="card" id="contnt3">
+                                        <div class="row g-0" >
+                                          <div class="col-md-4">
+                                            <img src="../assets/img/person/IMG_4986_HC.JPG" class="imgperson-dir" alt="...">
+                                          </div>
+                                          <div class="col-md-8 p-2 mx-auto text-center">
+                                            <div class="card-body">
+                                              <p class="textnt11">Lic. Hector Camarillo Segovia</p>
+                                              <p class="textnt22">Coordinador de Normatividad, Transparencia y Archivo</p>
+                                              <a class="correo-personal-g" href="mailto:hector.camarillo@osfags.gob.mx">hector.camarillo@osfags.gob.mx</a>
+                                              <p class="textnt33">449 123-4567 Ext. 123</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+
+                          <div class="tab-pane fade" id="dir-direcciones" role="tabpanel">
+                            <h3>Direcciones</h3>
+                          
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    <h4>Dirección Administrativa</h4>
+                                  </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                  <div class="accordion-body">
+                                      <div class="card" id="contnt3">
+                                          <div class="row g-0" >
+                                            <div class="col-md-4">
+                                              <img src="../assets/img/person/MB.jpg" class="imgperson-dir" alt="...">
+                                            </div>
+                                            <div class="col-md-8 p-2 mx-auto text-center">
+                                              <div class="card-body">
+                                                <p class="textnt11">Lic. Mario Hiram Bravo de Luna</p>
+                                                <p class="textnt22">Encargado del Área Administrativa</p>
+                                                <a class="correo-personal-g" href="mailto:mario.bravo@osfags.gob.mx">mario.bravo@osfags.gob.mx</a>
+                                                <p class="textnt33">449 123-4567 Ext. 112</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                      </div>
+                          
+                                      <div class="card" id="contnt3" style="background-color: #1bb7a2;">
+                                          <div class="row g-0" >
+                                            <div class="col-md-4">
+                                              <img src="../assets/img/person/IMG_4981_GO.JPG" class="imgperson" alt="...">
+                                            </div>
+                                            <div class="col-md-8 p-2 mx-auto text-center">
+                                              <div class="card-body">
+                                                <p class="textnt111">Lic. Gerardo Olmeda Cruz</p>
+                                                <p class="textnt221">Jefe de Unidad de Capital Humano</p>
+                                                <a class="correo-personal" href="mailto:gerardo.olmeda@osfags.gob.mx">gerardo.olmeda@osfags.gob.mx</a>
+                                                <p class="textnt331">449 123-4567 Ext. 1020</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                          
+                                        <div class="card" id="contnt3" style="background-color: #1bb7a2;">
+                                          <div class="row g-0" >
+                                            <div class="col-md-4">
+                                              <img src="../assets/img/person/LR.jpeg" class="imgperson" alt="...">
+                                            </div>
+                                            <div class="col-md-8 p-2 mx-auto text-center">
+                                              <div class="card-body">
+                                                <p class="textnt111">Lic. Lilia Romero Martínez</p>
+                                                <p class="textnt221">Jefa de Unidad de Recursos Materiales</p>
+                                                <a class="correo-personal" href="mailto:lilia.romero@osfags.gob.mx">lilia.romero@osfags.gob.mx</a>
+                                                <p class="textnt331">449 123-4567 Ext. 1002</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                          
+                                        <div class="card" id="contnt3" style="background-color: #1bb7a2;">
+                                          <div class="row g-0" >
+                                            <div class="col-md-4">
+                                              <img src="../assets/img/person/RS.jpeg" class="imgperson" alt="...">
+                                            </div>
+                                            <div class="col-md-8 p-2 mx-auto text-center">
+                                              <div class="card-body">
+                                                <p class="textnt111">Lic. Ruth Salas López</p>
+                                                <p class="textnt221">Jefa de Unidad de Recursos Financieros</p>
+                                                <a class="correo-personal" href="mailto:ruth.salas@osfags.gob.mx">ruth.salas@osfags.gob.mx</a>
+                                                <p class="textnt331">449 123-4567 Ext. 1015</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        <div class="card" id="contnt3" style="background-color: #1bb7a2;">
+                                          <div class="row g-0" >
+                                            <div class="col-md-4">
+                                              <img src="../assets/img/person/IMG_5002_FV.JPG" class="imgperson" alt="...">
+                                            </div>
+                                            <div class="col-md-8 p-2 mx-auto text-center">
+                                              <div class="card-body">
+                                                <p class="textnt111">Ing. Fabio Alberto Valdivia Palomo</p>
+                                                <p class="textnt221">Jefe de depto. de Sistemas, Seguridad e Informática y Soporte Técnico</p>
+                                                <a class="correo-personal" href="mailto:fabio.valdivia@osfags.gob.mx">fabio.valdivia@osfags.gob.mx</a>
+                                                <p class="textnt331">449 123-4567 Ext. </p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                          
+                                  </div>
+                                </div>
+                              </div>
+                          
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                      <h4>Dirección de Auditoría y Revisión de la Cuenta Pública</h4>
+                                  </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                  <div class="accordion-body">
+                                      <div class="card" id="contnt3">
+                                          <div class="row g-0" >
+                                            <div class="col-md-4">
+                                              <img src="../assets/img/person.jpg" class="imgperson-dir" alt="...">
+                                            </div>
+                                            <div class="col-md-8 p-2 mx-auto text-center">
+                                              <div class="card-body">
+                                                <p class="textnt11">CP. Miguel Reyes Barrera</p>
+                                                <p class="textnt22">Dir. de Auditoría Financiera y Revisión de la Cuenta Pública</p>
+                                                <a class="correo-personal-g" href="mailto:miguel.reyes@osfags.gob.mx">miguel.reyes@osfags.gob.mx</a>
+                                                <p class="textnt33">449 123-4567 Ext. 107</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                          
+                                        <div class="card" id="contnt3">
+                                          <div class="row g-0" >
+                                            <div class="col-md-4">
+                                              <img src="../assets/img/person/IMG_4978_JDR.JPG" class="imgperson-dir" alt="...">
+                                            </div>
+                                            <div class="col-md-8 p-2 mx-auto text-center">
+                                              <div class="card-body">
+                                                <p class="textnt11">Lic. Juan del Real Salmerón</p>
+                                                <p class="textnt22">Subdirector de Auditoría Financiera</p>
+                                                <a class="correo-personal-g" href="mailto:dirección.gob@gmail.com">dirección.gob@gmail.com</a>
+                                                <p class="textnt33">449 123-4567 Ext. 105</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        <div class="card" id="contnt3">
+                                          <div class="row g-0" >
+                                            <div class="col-md-4">
+                                              <img src="../assets/img/person/IMG_4972_FR.JPG" class="imgperson-dir" alt="...">
+                                            </div>
+                                            <div class="col-md-8 p-2 mx-auto text-center">
+                                              <div class="card-body">
+                                                <p class="textnt11">Lic. Fabricio Robles</p>
+                                                <p class="textnt22">Subdirector de Obra Pública</p>
+                                                <a class="correo-personal-g" href="mailto:fabricio.robles@osfags.gob.mx">fabricio.robles@osfags.gob.mx</a>
+                                                <p class="textnt33">449 123-4567 Ext. 119</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                  
+
+                                  </div>
+                                </div>
+                              </div>
+                          
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    <h4>Dirección Jurídica</h4>
+                                  </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                  <div class="accordion-body">
+                                      <div class="card" id="contnt3">
+                                          <div class="row g-0" >
+                                            <div class="col-md-4">
+                                              <img src="../assets/img/person/IMG_4982_EL.JPG" class="imgperson-dir" alt="...">
+                                            </div>
+                                            <div class="col-md-8 p-2 mx-auto text-center">
+                                              <div class="card-body">
+                                                <p class="textnt11">Lic. Enrique Llamas Ramírez</p>
+                                                <p class="textnt22">Dir. Jurídico</p>
+                                                <a class="correo-personal-g" href="mailto:enrique.llamas@osfags.gob.mx">enrique.llamas@osfags.gob.mx</a>
+                                                <p class="textnt33">449 123-4567 Ext. 1035</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                          
+                                        <div class="card" id="contnt3" style="background-color: #1bb7a2;">
+                                          <div class="row g-0" >
+                                            <div class="col-md-4">
+                                              <img src="../assets/img/person/IMG_4995_CV.JPG" class="imgperson" alt="...">
+                                            </div>
+                                            <div class="col-md-8 p-2 mx-auto text-center">
+                                              <div class="card-body">
+                                                <p class="textnt111">Lic. Citlalli Ventura Ramírez</p>
+                                                <p class="textnt221">Subdirectora Jurídica</p>
+                                                <a class="correo-personal" href="mailto:citlalli.ventura@osfags.gob.mx">citlalli.ventura@osfags.gob.mx</a>
+                                                <p class="textnt331">449 123-4567 Ext. 1030</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                  </div>
+                                </div>
+                              </div>
+                          
+                              <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                      <h4>Dirección Análisis, Control y Seguimiento</h4>
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                      
+                                      <div class="card" id="contnt3">
+                                        <div class="row g-0" >
+                                          <div class="col-md-4">
+                                            <img src="../assets/img/person/IMG_4991_AN.JPG" class="imgperson-dir" alt="...">
+                                          </div>
+                                          <div class="col-md-8 p-2 mx-auto text-center">
+                                            <div class="card-body">
+                                              <p class="textnt11">Mtro. Victor Alan Neri Jímenez</p>
+                                              <p class="textnt22">Dir. de Analisis, Control y Seguimiento</p>
+                                              <a class="correo-personal-g" href="mailto:victor.neri@osfags.gob.mx">victor.neri@osfags.gob.mx</a>
+                                              <p class="textnt33">449 123-4567 Ext. 117</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                      <h4>Dirección Auditoría de Desempeño</h4>
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                      
+                                      <div class="card" id="contnt3">
+                                        <div class="row g-0" >
+                                          <div class="col-md-4">
+                                            <img src="../assets/img/person/IMG_4974_EDL.JPG" class="imgperson-dir" alt="...">
+                                          </div>
+                                          <div class="col-md-8 p-2 mx-auto text-center">
+                                            <div class="card-body">
+                                              <p class="textnt11">Mtro. Esteban Alejandro Lira Padilla</p>
+                                              <p class="textnt22">Dir. de Desempeño</p>
+                                              <a class="correo-personal-g" href="mailto:esteban.lira@osfags.gob.mx">esteban.lira@osfags.gob.mx</a>
+                                              <p class="textnt33">449 123-4567 Ext. 104</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                            </div> 
+                          </div>  
+
+                          <div class="tab-pane fade show active" id="organigrama" role="tabpanel">
+                
+                          <h3>Organigrama</h3>
+                            <a target="_blank" href="http://osfags.gob.mx/Public/Y5pMFXNEr2CArUC.png"> 
+                              <img id="imagen" src="../assets/img/Organigrama_2023.png" alt="" width="100%" /> 
+                            </a>
+                        </div>
+
+                      </div>
+
+
+                    </div>
+
+                      </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+<br>
+      <p> <a class="btn" title="Ir Arriba" role="button" onclick="scrolly()" id="btn-arriba" >
+            <i class="fa-solid fa-arrow-up"></i>
+          </a>
+        </p>
+      <br><br><br>
+      <footer class="footer">
+        <div class="row">
+          <div class="col-lg-4 col-md-12">
+              <main class="main-txt-footer">
+              <p style="color: white; text-align: center">
+                
+                <b>Dirección:</b> Sierra Pintada 102, Bosques del Prado Sur, 20130
+                Aguascalientes.<br />
+
+                <b>¿Alguna pregunta?</b> 
+                <a id="contacto" href="mailto:contacto@osfags.gob.mx">contacto@osfags.gob.mx</a> <br />
+
+                <b>Llámenos: </b> 
+                (449) 918 3614 <br />
+                (449) 918 3615 <br />
+                (449) 918 3616
+              </p>
+            </main>
+            </div>
+
+                <div class="col-lg-4 col-md-12">
+
+                  <main class="botones-footer">
+
+                    <a id="mail" title="E-Mail" class="btn mb-3" href="mailto:contacto@osfags.gob.mx" role="button" >
+                      <i class="fa-regular fa-envelope"></i>
+                    </a>
+    
+                    <a target="_blank" rel="noopener noreferrer" title="Facebook" id="facebook" class="btn mb-3" style="width: auto;" href="https://www.facebook.com/%C3%93rgano-Superior-de-Fiscalizaci%C3%B3n-del-Estado-de-Aguascalientes-Oficial-105374757941296" role="button">
+                      <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+    
+                    <a target="_blank" rel="noopener noreferrer" title="YouTube" id="youtube" class="btn mb-3" href="https://www.youtube.com/@organosuperiordefiscalizac545" role="button">
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+    
+                    <a target="_blank" rel="noopener noreferrer" title="Twitter" id="twitter" class="btn mb-3" href="https://twitter.com/osf_ags" role="button">
+                      <i class="fa-brands fa-x-twitter"></i>
+                    </a> <br>
+                </main>
+                </div>
+
+
+          <div class="col-lg-4 col-md-12">
+            <main class="main-img-footer">
+              <img src="../assets/img/logo2.png" alt="Órgano Superior de Fiscalización del Estado de Aguascalientes"
+              title="Órgano Superior de Fiscalización del Estado de Aguascalientes" id="img-logo4"/>
+            </main>
+            
+          </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/arriba.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
