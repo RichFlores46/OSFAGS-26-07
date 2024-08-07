@@ -203,6 +203,9 @@
         padding: 1px 11px;
         margin-right: 12px;
     }
+    #contnt3 .numero-g{
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width:380px) and (max-width:400px){
@@ -259,6 +262,9 @@
         padding: 1px 11px;
         margin-right: 17px;
     }
+    #contnt3 .numero-g{
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width:401px) and (max-width:420px){
@@ -310,6 +316,9 @@
     .navegacion-menu .nav.nav-tabs.nav-tabs-menu > .nav-item.nav-item-menu > .nav-link-dropdown-toggle-menu {
         padding: 1px 11px;
         margin-right: 17px;
+    }
+    #contnt3 .numero-g{
+        font-size: 18px;
     }
 }
 
