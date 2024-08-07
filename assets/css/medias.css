@@ -1014,6 +1014,15 @@
         padding: 1px 15px;
         margin-right: 40px;
     }
+    #contnt3 .puesto-g, #contnt3 .puesto{
+        line-height: none;
+    }
+    #contnt3 .nombre-g, #contnt3 .nombre{
+        line-height: none;
+    }
+    #contnt3 .puesto{
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (min-width:1401px){
@@ -1104,5 +1113,14 @@
     .navegacion-menu .nav.nav-tabs.nav-tabs-menu > .nav-item.nav-item-menu > .nav-link-dropdown-toggle-menu {
         padding: 1px 15px;
         margin-right: 40px;
+    }
+    #contnt3 .puesto-g, #contnt3 .puesto{
+    line-height: none;
+    }
+    #contnt3 .nombre-g, #contnt3 .nombre{
+        line-height: none;
+    }
+    #contnt3 .puesto{
+        margin-bottom: 10px;
     }
 }
